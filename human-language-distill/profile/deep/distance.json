@@ -1,0 +1,144 @@
+{
+ "features": [
+  "adjacent_sim",
+  "assertion_per100",
+  "ba_per100",
+  "bei_per100",
+  "both_sides_per100",
+  "burstiness",
+  "causal_per100",
+  "closing_template",
+  "compression_ratio",
+  "condition_per100",
+  "content_ratio",
+  "contrast_per100",
+  "digit_per100",
+  "disclaimer_per100",
+  "distinct_token_ratio",
+  "empty_condition_ratio",
+  "first_person_per100",
+  "hedge_per100",
+  "judgment_per100",
+  "marker_per100",
+  "md_bold_per1000",
+  "md_heading_per1000",
+  "md_list_per1000",
+  "n_tokens",
+  "newline_ratio",
+  "ngram_repeat",
+  "nominalization",
+  "number_token_ratio",
+  "opening_template",
+  "para_mean",
+  "para_sent_ratio",
+  "parallel_ratio",
+  "pronoun",
+  "question_ratio",
+  "sent_cv",
+  "sent_max",
+  "sent_mean",
+  "sent_p10",
+  "sent_p90",
+  "sent_std",
+  "time_per100",
+  "transition_only_ratio",
+  "ttr",
+  "unique_sent_ratio"
+ ],
+ "n_features": 44,
+ "genres": {
+  "classical": 30000,
+  "codedoc": 2112,
+  "im": 30000,
+  "literary": 2021,
+  "longform": 30000,
+  "news": 30000,
+  "opinion": 30000
+ },
+ "pairwise": {
+  "classical|codedoc": {
+   "euclidean": 12.141,
+   "cosine": -0.204
+  },
+  "classical|im": {
+   "euclidean": 11.268,
+   "cosine": -0.031
+  },
+  "classical|literary": {
+   "euclidean": 10.542,
+   "cosine": -0.195
+  },
+  "classical|longform": {
+   "euclidean": 13.201,
+   "cosine": -0.505
+  },
+  "classical|news": {
+   "euclidean": 10.362,
+   "cosine": -0.095
+  },
+  "classical|opinion": {
+   "euclidean": 12.046,
+   "cosine": -0.32
+  },
+  "codedoc|im": {
+   "euclidean": 11.822,
+   "cosine": -0.372
+  },
+  "codedoc|literary": {
+   "euclidean": 9.328,
+   "cosine": -0.192
+  },
+  "codedoc|longform": {
+   "euclidean": 9.798,
+   "cosine": -0.005
+  },
+  "codedoc|news": {
+   "euclidean": 8.59,
+   "cosine": 0.053
+  },
+  "codedoc|opinion": {
+   "euclidean": 10.898,
+   "cosine": -0.326
+  },
+  "im|literary": {
+   "euclidean": 8.148,
+   "cosine": 0.116
+  },
+  "im|longform": {
+   "euclidean": 12.268,
+   "cosine": -0.568
+  },
+  "im|news": {
+   "euclidean": 10.74,
+   "cosine": -0.5
+  },
+  "im|opinion": {
+   "euclidean": 8.213,
+   "cosine": 0.255
+  },
+  "literary|longform": {
+   "euclidean": 8.58,
+   "cosine": -0.087
+  },
+  "literary|news": {
+   "euclidean": 8.129,
+   "cosine": -0.318
+  },
+  "literary|opinion": {
+   "euclidean": 8.121,
+   "cosine": -0.061
+  },
+  "longform|news": {
+   "euclidean": 6.231,
+   "cosine": 0.474
+  },
+  "longform|opinion": {
+   "euclidean": 9.421,
+   "cosine": -0.058
+  },
+  "news|opinion": {
+   "euclidean": 9.775,
+   "cosine": -0.454
+  }
+ }
+}

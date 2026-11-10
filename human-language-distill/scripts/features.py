@@ -42,9 +42,9 @@ def _count_any(text: str, words: list[str]) -> int:
     return sum(text.count(w) for w in words)
 
 
-def mtdl(tokens: list[str], threshold: float = 0.72) -> float:
+def mtdl(tokens: list[str], threshold: float = 0.72) -> float | None:
     if len(tokens) < 50:
-        return 0.0
+        return None
     def one(toks):
         factors, types, n = 0, set(), 0
         for t in toks:
@@ -58,18 +58,18 @@ def mtdl(tokens: list[str], threshold: float = 0.72) -> float:
         return factors
     f, b = one(tokens), one(tokens[::-1])
     if f <= 0 or b <= 0:
-        return 0.0
+        return None
     return (len(tokens) / f + len(tokens) / b) / 2
 
 
-def _kurt(xs: list[float]) -> float:
+def _kurt(xs: list[float]) -> float | None:
     n = len(xs)
     if n < 4:
-        return 0.0
+        return None
     m = sum(xs) / n
     v = sum((x - m) ** 2 for x in xs) / n
     if v <= 0:
-        return 0.0
+        return None
     return sum((x - m) ** 4 for x in xs) / (n * v * v) - 3
 
 
@@ -98,14 +98,16 @@ def compute(text: str, do_pos: bool = False) -> dict:
     # rhythm
     mean = sum(slens) / n_s if slens else 0
     std = math.sqrt(sum((x - mean) ** 2 for x in slens) / n_s) if slens else 0
+    pmean = sum(plens) / max(1, len(plens))
     feats.update({
-        "sent_mean": mean, "sent_std": std, "sent_cv": std / mean if mean else 0,
+        "sent_mean": mean, "sent_std": std,
+        "sent_cv": std / mean if mean and len(slens) >= 2 else None,
         "sent_kurt": _kurt(slens), "sent_p10": _pct(slens, .1), "sent_p90": _pct(slens, .9),
         "sent_max": max(slens) if slens else 0,
-        "para_mean": sum(plens) / max(1, len(plens)),
-        "para_cv": (math.sqrt(sum((x - sum(plens) / max(1, len(plens))) ** 2 for x in plens) / max(1, len(plens)))
-                    / (sum(plens) / max(1, len(plens)))) if plens and sum(plens) else 0,
-        "burstiness": (std - mean) / (std + mean) if (std + mean) else 0,
+        "para_mean": pmean,
+        "para_cv": (math.sqrt(sum((x - pmean) ** 2 for x in plens) / len(plens)) / pmean)
+                   if len(plens) >= 2 and pmean else None,
+        "burstiness": (std - mean) / (std + mean) if (std + mean) else None,
     })
 
     # lexical

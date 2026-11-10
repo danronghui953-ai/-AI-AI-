@@ -1,4 +1,15 @@
 {
+ "classical": {
+  "n_docs": 223820,
+  "n_chars": 15057554,
+  "subgenres": {
+   "canon": 655,
+   "five_dynasties": 543,
+   "song_ci": 21097,
+   "tang_poetry": 190868,
+   "yuan_qu": 10657
+  }
+ },
  "codedoc": {
   "n_docs": 2112,
   "n_chars": 6108000,
@@ -14,10 +25,10 @@
   }
  },
  "literary": {
-  "n_docs": 2135,
-  "n_chars": 6871472,
+  "n_docs": 2021,
+  "n_chars": 6530600,
   "subgenres": {
-   "prose": 2135
+   "prose": 2021
   }
  },
  "longform": {
@@ -27,6 +38,15 @@
    "longpost": 24730,
    "news": 111575,
    "wiki": 45828
+  }
+ },
+ "news": {
+  "n_docs": 35210,
+  "n_chars": 28914633,
+  "subgenres": {
+   "politics": 11220,
+   "sports": 4072,
+   "tech": 19918
   }
  },
  "opinion": {

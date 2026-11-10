@@ -1,0 +1,1801 @@
+{
+ "im": {
+  "tokens": 1642314,
+  "top": [
+   {
+    "bundle": "我也",
+    "count": 4713,
+    "per10k": 28.7
+   },
+   {
+    "bundle": "了我",
+    "count": 4640,
+    "per10k": 28.25
+   },
+   {
+    "bundle": "你的",
+    "count": 3648,
+    "per10k": 22.21
+   },
+   {
+    "bundle": "了你",
+    "count": 3616,
+    "per10k": 22.02
+   },
+   {
+    "bundle": "我的",
+    "count": 3362,
+    "per10k": 20.47
+   },
+   {
+    "bundle": "也是",
+    "count": 2728,
+    "per10k": 16.61
+   },
+   {
+    "bundle": "的我",
+    "count": 2605,
+    "per10k": 15.86
+   },
+   {
+    "bundle": "你是",
+    "count": 2396,
+    "per10k": 14.59
+   },
+   {
+    "bundle": "我是",
+    "count": 2392,
+    "per10k": 14.56
+   },
+   {
+    "bundle": "都是",
+    "count": 2367,
+    "per10k": 14.41
+   },
+   {
+    "bundle": "不知道",
+    "count": 2328,
+    "per10k": 14.18
+   },
+   {
+    "bundle": "啊我",
+    "count": 2305,
+    "per10k": 14.04
+   },
+   {
+    "bundle": "好的",
+    "count": 2127,
+    "per10k": 12.95
+   },
+   {
+    "bundle": "我就",
+    "count": 2003,
+    "per10k": 12.2
+   },
+   {
+    "bundle": "给你",
+    "count": 1997,
+    "per10k": 12.16
+   },
+   {
+    "bundle": "的人",
+    "count": 1937,
+    "per10k": 11.79
+   },
+   {
+    "bundle": "的时候",
+    "count": 1851,
+    "per10k": 11.27
+   },
+   {
+    "bundle": "的你",
+    "count": 1818,
+    "per10k": 11.07
+   },
+   {
+    "bundle": "那你",
+    "count": 1707,
+    "per10k": 10.39
+   },
+   {
+    "bundle": "好吧",
+    "count": 1692,
+    "per10k": 10.3
+   },
+   {
+    "bundle": "啊你",
+    "count": 1652,
+    "per10k": 10.06
+   },
+   {
+    "bundle": "你也",
+    "count": 1650,
+    "per10k": 10.05
+   },
+   {
+    "bundle": "我都",
+    "count": 1633,
+    "per10k": 9.94
+   },
+   {
+    "bundle": "给我",
+    "count": 1540,
+    "per10k": 9.38
+   },
+   {
+    "bundle": "嗯嗯",
+    "count": 1450,
+    "per10k": 8.83
+   },
+   {
+    "bundle": "是我",
+    "count": 1402,
+    "per10k": 8.54
+   },
+   {
+    "bundle": "我还",
+    "count": 1400,
+    "per10k": 8.52
+   },
+   {
+    "bundle": "你说",
+    "count": 1398,
+    "per10k": 8.51
+   },
+   {
+    "bundle": "的是",
+    "count": 1366,
+    "per10k": 8.32
+   },
+   {
+    "bundle": "说的",
+    "count": 1357,
+    "per10k": 8.26
+   }
+  ],
+  "distinctive": [
+   {
+    "bundle": "是啊",
+    "count": 1183,
+    "log2_lift": 9.69
+   },
+   {
+    "bundle": "你啊",
+    "count": 403,
+    "log2_lift": 8.62
+   },
+   {
+    "bundle": "哈哈哈哈哈哈哈哈哈",
+    "count": 469,
+    "log2_lift": 8.58
+   },
+   {
+    "bundle": "对啊",
+    "count": 748,
+    "log2_lift": 8.38
+   },
+   {
+    "bundle": "被你",
+    "count": 326,
+    "log2_lift": 8.32
+   },
+   {
+    "bundle": "找你",
+    "count": 463,
+    "log2_lift": 8.15
+   },
+   {
+    "bundle": "嗯我",
+    "count": 289,
+    "log2_lift": 8.14
+   },
+   {
+    "bundle": "嘛你",
+    "count": 281,
+    "log2_lift": 8.1
+   },
+   {
+    "bundle": "哈哈哈哈哈哈",
+    "count": 1161,
+    "log2_lift": 8.08
+   },
+   {
+    "bundle": "看到你",
+    "count": 332,
+    "log2_lift": 8.08
+   },
+   {
+    "bundle": "了嗯",
+    "count": 385,
+    "log2_lift": 8.07
+   },
+   {
+    "bundle": "你也是",
+    "count": 317,
+    "log2_lift": 8.02
+   },
+   {
+    "bundle": "哈哈哈哈哈",
+    "count": 700,
+    "log2_lift": 7.94
+   },
+   {
+    "bundle": "你现在",
+    "count": 429,
+    "log2_lift": 7.87
+   },
+   {
+    "bundle": "你这是",
+    "count": 219,
+    "log2_lift": 7.74
+   },
+   {
+    "bundle": "哈哈哈哈哈哈哈",
+    "count": 384,
+    "log2_lift": 7.71
+   },
+   {
+    "bundle": "哦你",
+    "count": 278,
+    "log2_lift": 7.6
+   },
+   {
+    "bundle": "你这样",
+    "count": 191,
+    "log2_lift": 7.55
+   },
+   {
+    "bundle": "哈哈哈我",
+    "count": 486,
+    "log2_lift": 7.52
+   },
+   {
+    "bundle": "不不不",
+    "count": 186,
+    "log2_lift": 7.51
+   }
+  ]
+ },
+ "codedoc": {
+  "tokens": 833520,
+  "top": [
+   {
+    "bundle": "中的",
+    "count": 1148,
+    "per10k": 13.77
+   },
+   {
+    "bundle": "URLURL",
+    "count": 788,
+    "per10k": 9.45
+   },
+   {
+    "bundle": "imgsrc",
+    "count": 629,
+    "per10k": 7.55
+   },
+   {
+    "bundle": "srcURL",
+    "count": 597,
+    "per10k": 7.16
+   },
+   {
+    "bundle": "我的",
+    "count": 548,
+    "per10k": 6.57
+   },
+   {
+    "bundle": "URLURLURL",
+    "count": 513,
+    "per10k": 6.15
+   },
+   {
+    "bundle": "链接URL",
+    "count": 509,
+    "per10k": 6.11
+   },
+   {
+    "bundle": "都是",
+    "count": 490,
+    "per10k": 5.88
+   },
+   {
+    "bundle": "机器学习",
+    "count": 478,
+    "per10k": 5.73
+   },
+   {
+    "bundle": "的时候",
+    "count": 478,
+    "per10k": 5.73
+   },
+   {
+    "bundle": "官网URL",
+    "count": 467,
+    "per10k": 5.6
+   },
+   {
+    "bundle": "自己的",
+    "count": 459,
+    "per10k": 5.51
+   },
+   {
+    "bundle": "imgsrcURL",
+    "count": 458,
+    "per10k": 5.49
+   },
+   {
+    "bundle": "小程序",
+    "count": 448,
+    "per10k": 5.37
+   },
+   {
+    "bundle": "你的",
+    "count": 443,
+    "per10k": 5.31
+   },
+   {
+    "bundle": "地址URL",
+    "count": 438,
+    "per10k": 5.25
+   },
+   {
+    "bundle": "的是",
+    "count": 434,
+    "per10k": 5.21
+   },
+   {
+    "bundle": "的问题",
+    "count": 410,
+    "per10k": 4.92
+   },
+   {
+    "bundle": "如果你",
+    "count": 384,
+    "per10k": 4.61
+   },
+   {
+    "bundle": "下载URL",
+    "count": 380,
+    "per10k": 4.56
+   },
+   {
+    "bundle": "是一个",
+    "count": 378,
+    "per10k": 4.53
+   },
+   {
+    "bundle": "更多",
+    "count": 374,
+    "per10k": 4.49
+   },
+   {
+    "bundle": "的代码",
+    "count": 373,
+    "per10k": 4.47
+   },
+   {
+    "bundle": "也可以",
+    "count": 368,
+    "per10k": 4.42
+   },
+   {
+    "bundle": "的数据",
+    "count": 331,
+    "per10k": 3.97
+   },
+   {
+    "bundle": "本项目",
+    "count": 330,
+    "per10k": 3.96
+   },
+   {
+    "bundle": "ahref",
+    "count": 327,
+    "per10k": 3.92
+   },
+   {
+    "bundle": "深度学习",
+    "count": 323,
+    "per10k": 3.88
+   },
+   {
+    "bundle": "可以在",
+    "count": 310,
+    "per10k": 3.72
+   },
+   {
+    "bundle": "也是",
+    "count": 304,
+    "per10k": 3.65
+   }
+  ],
+  "distinctive": [
+   {
+    "bundle": "的代码",
+    "count": 373,
+    "log2_lift": 9.14
+   },
+   {
+    "bundle": "官网URL",
+    "count": 467,
+    "log2_lift": 8.95
+   },
+   {
+    "bundle": "brbr",
+    "count": 259,
+    "log2_lift": 8.62
+   },
+   {
+    "bundle": "本项目",
+    "count": 330,
+    "log2_lift": 8.6
+   },
+   {
+    "bundle": "QQ群",
+    "count": 132,
+    "log2_lift": 8.13
+   },
+   {
+    "bundle": "的模型",
+    "count": 119,
+    "log2_lift": 7.98
+   },
+   {
+    "bundle": "使用方法",
+    "count": 100,
+    "log2_lift": 7.73
+   },
+   {
+    "bundle": "的接口",
+    "count": 100,
+    "log2_lift": 7.73
+   },
+   {
+    "bundle": "函数的",
+    "count": 82,
+    "log2_lift": 7.44
+   },
+   {
+    "bundle": "第版",
+    "count": 295,
+    "log2_lift": 7.44
+   },
+   {
+    "bundle": "的页面",
+    "count": 80,
+    "log2_lift": 7.41
+   },
+   {
+    "bundle": "在项目",
+    "count": 66,
+    "log2_lift": 7.13
+   },
+   {
+    "bundle": "中的应用",
+    "count": 76,
+    "log2_lift": 7.07
+   },
+   {
+    "bundle": "可选",
+    "count": 99,
+    "log2_lift": 7.04
+   },
+   {
+    "bundle": "设置为",
+    "count": 73,
+    "log2_lift": 7.01
+   },
+   {
+    "bundle": "百度云",
+    "count": 118,
+    "log2_lift": 6.97
+   },
+   {
+    "bundle": "使用说明",
+    "count": 58,
+    "log2_lift": 6.94
+   },
+   {
+    "bundle": "ofthe",
+    "count": 56,
+    "log2_lift": 6.89
+   },
+   {
+    "bundle": "生成的",
+    "count": 98,
+    "log2_lift": 6.85
+   },
+   {
+    "bundle": "的服务器",
+    "count": 65,
+    "log2_lift": 6.85
+   }
+  ]
+ },
+ "literary": {
+  "tokens": 1527779,
+  "top": [
+   {
+    "bundle": "他的",
+    "count": 2748,
+    "per10k": 17.99
+   },
+   {
+    "bundle": "我的",
+    "count": 2579,
+    "per10k": 16.88
+   },
+   {
+    "bundle": "沒有",
+    "count": 1842,
+    "per10k": 12.06
+   },
+   {
+    "bundle": "的人",
+    "count": 1726,
+    "per10k": 11.3
+   },
+   {
+    "bundle": "晴上午",
+    "count": 1531,
+    "per10k": 10.02
+   },
+   {
+    "bundle": "的時候",
+    "count": 1474,
+    "per10k": 9.65
+   },
+   {
+    "bundle": "的是",
+    "count": 1332,
+    "per10k": 8.72
+   },
+   {
+    "bundle": "自己的",
+    "count": 1153,
+    "per10k": 7.55
+   },
+   {
+    "bundle": "了我",
+    "count": 1042,
+    "per10k": 6.82
+   },
+   {
+    "bundle": "對於",
+    "count": 1033,
+    "per10k": 6.76
+   },
+   {
+    "bundle": "了他",
+    "count": 1033,
+    "per10k": 6.76
+   },
+   {
+    "bundle": "於是",
+    "count": 973,
+    "per10k": 6.37
+   },
+   {
+    "bundle": "的事",
+    "count": 947,
+    "per10k": 6.2
+   },
+   {
+    "bundle": "也是",
+    "count": 874,
+    "per10k": 5.72
+   },
+   {
+    "bundle": "之後",
+    "count": 845,
+    "per10k": 5.53
+   },
+   {
+    "bundle": "上的",
+    "count": 827,
+    "per10k": 5.41
+   },
+   {
+    "bundle": "都是",
+    "count": 812,
+    "per10k": 5.31
+   },
+   {
+    "bundle": "這樣的",
+    "count": 803,
+    "per10k": 5.26
+   },
+   {
+    "bundle": "人的",
+    "count": 799,
+    "per10k": 5.23
+   },
+   {
+    "bundle": "她的",
+    "count": 782,
+    "per10k": 5.12
+   },
+   {
+    "bundle": "也不",
+    "count": 762,
+    "per10k": 4.99
+   },
+   {
+    "bundle": "小說",
+    "count": 755,
+    "per10k": 4.94
+   },
+   {
+    "bundle": "上午得",
+    "count": 729,
+    "per10k": 4.77
+   },
+   {
+    "bundle": "二弟信",
+    "count": 717,
+    "per10k": 4.69
+   },
+   {
+    "bundle": "不知道",
+    "count": 716,
+    "per10k": 4.69
+   },
+   {
+    "bundle": "年月",
+    "count": 707,
+    "per10k": 4.63
+   },
+   {
+    "bundle": "因爲",
+    "count": 696,
+    "per10k": 4.56
+   },
+   {
+    "bundle": "的話",
+    "count": 691,
+    "per10k": 4.52
+   },
+   {
+    "bundle": "我也",
+    "count": 642,
+    "per10k": 4.2
+   },
+   {
+    "bundle": "晴午后",
+    "count": 626,
+    "per10k": 4.1
+   }
+  ],
+  "distinctive": [
+   {
+    "bundle": "沒有",
+    "count": 1842,
+    "log2_lift": 9.26
+   },
+   {
+    "bundle": "說是",
+    "count": 527,
+    "log2_lift": 9.14
+   },
+   {
+    "bundle": "因爲",
+    "count": 696,
+    "log2_lift": 9.05
+   },
+   {
+    "bundle": "於是",
+    "count": 973,
+    "log2_lift": 8.88
+   },
+   {
+    "bundle": "來的",
+    "count": 605,
+    "log2_lift": 8.85
+   },
+   {
+    "bundle": "這樣的",
+    "count": 803,
+    "log2_lift": 8.48
+   },
+   {
+    "bundle": "的東西",
+    "count": 501,
+    "log2_lift": 8.39
+   },
+   {
+    "bundle": "的說",
+    "count": 360,
+    "log2_lift": 8.32
+   },
+   {
+    "bundle": "了一個",
+    "count": 291,
+    "log2_lift": 8.28
+   },
+   {
+    "bundle": "的話",
+    "count": 691,
+    "log2_lift": 8.26
+   },
+   {
+    "bundle": "一個人",
+    "count": 272,
+    "log2_lift": 8.18
+   },
+   {
+    "bundle": "卻是",
+    "count": 251,
+    "log2_lift": 8.07
+   },
+   {
+    "bundle": "說我",
+    "count": 303,
+    "log2_lift": 8.07
+   },
+   {
+    "bundle": "之後",
+    "count": 845,
+    "log2_lift": 7.97
+   },
+   {
+    "bundle": "怎麽",
+    "count": 188,
+    "log2_lift": 7.65
+   },
+   {
+    "bundle": "見了",
+    "count": 180,
+    "log2_lift": 7.59
+   },
+   {
+    "bundle": "的時候",
+    "count": 1474,
+    "log2_lift": 7.48
+   },
+   {
+    "bundle": "她們",
+    "count": 156,
+    "log2_lift": 7.38
+   },
+   {
+    "bundle": "有時候",
+    "count": 150,
+    "log2_lift": 7.32
+   },
+   {
+    "bundle": "我以",
+    "count": 283,
+    "log2_lift": 7.24
+   }
+  ]
+ },
+ "news": {
+  "tokens": 1316943,
+  "top": [
+   {
+    "bundle": "月日电",
+    "count": 2385,
+    "per10k": 18.11
+   },
+   {
+    "bundle": "月日",
+    "count": 2080,
+    "per10k": 15.79
+   },
+   {
+    "bundle": "中新网月",
+    "count": 1196,
+    "per10k": 9.08
+   },
+   {
+    "bundle": "中新网月日电",
+    "count": 1193,
+    "per10k": 9.06
+   },
+   {
+    "bundle": "年月",
+    "count": 1054,
+    "per10k": 8.0
+   },
+   {
+    "bundle": "发展的",
+    "count": 862,
+    "per10k": 6.55
+   },
+   {
+    "bundle": "日电记者",
+    "count": 727,
+    "per10k": 5.52
+   },
+   {
+    "bundle": "月日电记者",
+    "count": 726,
+    "per10k": 5.51
+   },
+   {
+    "bundle": "北京月",
+    "count": 706,
+    "per10k": 5.36
+   },
+   {
+    "bundle": "的问题",
+    "count": 702,
+    "per10k": 5.33
+   },
+   {
+    "bundle": "日电据",
+    "count": 646,
+    "per10k": 4.91
+   },
+   {
+    "bundle": "月日电据",
+    "count": 646,
+    "per10k": 4.91
+   },
+   {
+    "bundle": "新的",
+    "count": 615,
+    "per10k": 4.67
+   },
+   {
+    "bundle": "陈致中",
+    "count": 608,
+    "per10k": 4.62
+   },
+   {
+    "bundle": "两国",
+    "count": 579,
+    "per10k": 4.4
+   },
+   {
+    "bundle": "北京月日电",
+    "count": 577,
+    "per10k": 4.38
+   },
+   {
+    "bundle": "日在",
+    "count": 576,
+    "per10k": 4.37
+   },
+   {
+    "bundle": "据台湾",
+    "count": 575,
+    "per10k": 4.37
+   },
+   {
+    "bundle": "也是",
+    "count": 548,
+    "per10k": 4.16
+   },
+   {
+    "bundle": "中国的",
+    "count": 540,
+    "per10k": 4.1
+   },
+   {
+    "bundle": "他说",
+    "count": 538,
+    "per10k": 4.09
+   },
+   {
+    "bundle": "工作的",
+    "count": 502,
+    "per10k": 3.81
+   },
+   {
+    "bundle": "的发展",
+    "count": 488,
+    "per10k": 3.71
+   },
+   {
+    "bundle": "的重要",
+    "count": 487,
+    "per10k": 3.7
+   },
+   {
+    "bundle": "将在",
+    "count": 473,
+    "per10k": 3.59
+   },
+   {
+    "bundle": "新华网北京",
+    "count": 470,
+    "per10k": 3.57
+   },
+   {
+    "bundle": "新华网北京月",
+    "count": 470,
+    "per10k": 3.57
+   },
+   {
+    "bundle": "中的",
+    "count": 449,
+    "per10k": 3.41
+   },
+   {
+    "bundle": "进行了",
+    "count": 443,
+    "per10k": 3.36
+   },
+   {
+    "bundle": "的是",
+    "count": 427,
+    "per10k": 3.24
+   }
+  ],
+  "distinctive": [
+   {
+    "bundle": "月日电",
+    "count": 2385,
+    "log2_lift": 10.3
+   },
+   {
+    "bundle": "北京月",
+    "count": 706,
+    "log2_lift": 9.55
+   },
+   {
+    "bundle": "两国",
+    "count": 579,
+    "log2_lift": 8.68
+   },
+   {
+    "bundle": "中美",
+    "count": 292,
+    "log2_lift": 7.86
+   },
+   {
+    "bundle": "和人民",
+    "count": 172,
+    "log2_lift": 7.77
+   },
+   {
+    "bundle": "学习实践",
+    "count": 201,
+    "log2_lift": 7.73
+   },
+   {
+    "bundle": "月日讯",
+    "count": 156,
+    "log2_lift": 7.37
+   },
+   {
+    "bundle": "国际社会",
+    "count": 252,
+    "log2_lift": 7.32
+   },
+   {
+    "bundle": "促进经济",
+    "count": 175,
+    "log2_lift": 7.31
+   },
+   {
+    "bundle": "日表示",
+    "count": 122,
+    "log2_lift": 7.28
+   },
+   {
+    "bundle": "国家主席",
+    "count": 212,
+    "log2_lift": 7.23
+   },
+   {
+    "bundle": "和平发展",
+    "count": 140,
+    "log2_lift": 7.21
+   },
+   {
+    "bundle": "他强调",
+    "count": 113,
+    "log2_lift": 7.17
+   },
+   {
+    "bundle": "政府工作",
+    "count": 113,
+    "log2_lift": 7.17
+   },
+   {
+    "bundle": "中央企业",
+    "count": 181,
+    "log2_lift": 7.17
+   },
+   {
+    "bundle": "与合作",
+    "count": 222,
+    "log2_lift": 7.14
+   },
+   {
+    "bundle": "进一步加强",
+    "count": 198,
+    "log2_lift": 7.13
+   },
+   {
+    "bundle": "通知要求",
+    "count": 105,
+    "log2_lift": 7.06
+   },
+   {
+    "bundle": "共同发展",
+    "count": 101,
+    "log2_lift": 7.0
+   },
+   {
+    "bundle": "有关方面",
+    "count": 100,
+    "log2_lift": 6.99
+   }
+  ]
+ },
+ "classical": {
+  "tokens": 1371660,
+  "top": [
+   {
+    "bundle": "歲月",
+    "count": 325,
+    "per10k": 2.37
+   },
+   {
+    "bundle": "不爲",
+    "count": 317,
+    "per10k": 2.31
+   },
+   {
+    "bundle": "白髮",
+    "count": 295,
+    "per10k": 2.15
+   },
+   {
+    "bundle": "誰能",
+    "count": 268,
+    "per10k": 1.95
+   },
+   {
+    "bundle": "他年",
+    "count": 257,
+    "per10k": 1.87
+   },
+   {
+    "bundle": "不復",
+    "count": 256,
+    "per10k": 1.87
+   },
+   {
+    "bundle": "向來",
+    "count": 246,
+    "per10k": 1.79
+   },
+   {
+    "bundle": "無復",
+    "count": 244,
+    "per10k": 1.78
+   },
+   {
+    "bundle": "我亦",
+    "count": 237,
+    "per10k": 1.73
+   },
+   {
+    "bundle": "誰與",
+    "count": 226,
+    "per10k": 1.65
+   },
+   {
+    "bundle": "年年",
+    "count": 202,
+    "per10k": 1.47
+   },
+   {
+    "bundle": "胡爲",
+    "count": 191,
+    "per10k": 1.39
+   },
+   {
+    "bundle": "歸去",
+    "count": 168,
+    "per10k": 1.22
+   },
+   {
+    "bundle": "誰知",
+    "count": 165,
+    "per10k": 1.2
+   },
+   {
+    "bundle": "若爲",
+    "count": 164,
+    "per10k": 1.2
+   },
+   {
+    "bundle": "三更",
+    "count": 159,
+    "per10k": 1.16
+   },
+   {
+    "bundle": "爲我",
+    "count": 153,
+    "per10k": 1.12
+   },
+   {
+    "bundle": "有餘",
+    "count": 143,
+    "per10k": 1.04
+   },
+   {
+    "bundle": "從今",
+    "count": 142,
+    "per10k": 1.04
+   },
+   {
+    "bundle": "誰復",
+    "count": 139,
+    "per10k": 1.01
+   },
+   {
+    "bundle": "我欲",
+    "count": 137,
+    "per10k": 1.0
+   },
+   {
+    "bundle": "聊復",
+    "count": 127,
+    "per10k": 0.93
+   },
+   {
+    "bundle": "亦復",
+    "count": 127,
+    "per10k": 0.93
+   },
+   {
+    "bundle": "從來",
+    "count": 124,
+    "per10k": 0.9
+   },
+   {
+    "bundle": "年來",
+    "count": 121,
+    "per10k": 0.88
+   },
+   {
+    "bundle": "誰爲",
+    "count": 121,
+    "per10k": 0.88
+   },
+   {
+    "bundle": "顧我",
+    "count": 121,
+    "per10k": 0.88
+   },
+   {
+    "bundle": "頼有",
+    "count": 115,
+    "per10k": 0.84
+   },
+   {
+    "bundle": "爲誰",
+    "count": 115,
+    "per10k": 0.84
+   },
+   {
+    "bundle": "老矣",
+    "count": 114,
+    "per10k": 0.83
+   }
+  ],
+  "distinctive": [
+   {
+    "bundle": "他年",
+    "count": 257,
+    "log2_lift": 8.02
+   },
+   {
+    "bundle": "三更",
+    "count": 159,
+    "log2_lift": 7.59
+   },
+   {
+    "bundle": "我亦",
+    "count": 237,
+    "log2_lift": 7.32
+   },
+   {
+    "bundle": "白髮",
+    "count": 295,
+    "log2_lift": 7.1
+   },
+   {
+    "bundle": "久矣",
+    "count": 85,
+    "log2_lift": 6.69
+   },
+   {
+    "bundle": "顔色",
+    "count": 103,
+    "log2_lift": 6.48
+   },
+   {
+    "bundle": "亦復",
+    "count": 127,
+    "log2_lift": 6.42
+   },
+   {
+    "bundle": "已矣",
+    "count": 82,
+    "log2_lift": 6.37
+   },
+   {
+    "bundle": "豈有",
+    "count": 81,
+    "log2_lift": 6.35
+   },
+   {
+    "bundle": "有餘",
+    "count": 143,
+    "log2_lift": 6.3
+   },
+   {
+    "bundle": "閑人",
+    "count": 64,
+    "log2_lift": 6.28
+   },
+   {
+    "bundle": "不爲",
+    "count": 317,
+    "log2_lift": 6.26
+   },
+   {
+    "bundle": "未得",
+    "count": 63,
+    "log2_lift": 6.25
+   },
+   {
+    "bundle": "復見",
+    "count": 88,
+    "log2_lift": 6.25
+   },
+   {
+    "bundle": "他日",
+    "count": 110,
+    "log2_lift": 6.21
+   },
+   {
+    "bundle": "誰能",
+    "count": 268,
+    "log2_lift": 6.08
+   },
+   {
+    "bundle": "今已",
+    "count": 52,
+    "log2_lift": 5.98
+   },
+   {
+    "bundle": "亦已",
+    "count": 52,
+    "log2_lift": 5.98
+   },
+   {
+    "bundle": "但得",
+    "count": 51,
+    "log2_lift": 5.95
+   },
+   {
+    "bundle": "夢裏",
+    "count": 110,
+    "log2_lift": 5.92
+   }
+  ]
+ },
+ "opinion": {
+  "tokens": 1638594,
+  "top": [
+   {
+    "bundle": "很好",
+    "count": 4340,
+    "per10k": 26.49
+   },
+   {
+    "bundle": "的时候",
+    "count": 3854,
+    "per10k": 23.52
+   },
+   {
+    "bundle": "都是",
+    "count": 3267,
+    "per10k": 19.94
+   },
+   {
+    "bundle": "这本书",
+    "count": 2871,
+    "per10k": 17.52
+   },
+   {
+    "bundle": "很喜欢",
+    "count": 2640,
+    "per10k": 16.11
+   },
+   {
+    "bundle": "的感觉",
+    "count": 2409,
+    "per10k": 14.7
+   },
+   {
+    "bundle": "好的",
+    "count": 2307,
+    "per10k": 14.08
+   },
+   {
+    "bundle": "还可以",
+    "count": 2306,
+    "per10k": 14.07
+   },
+   {
+    "bundle": "吃的",
+    "count": 2303,
+    "per10k": 14.05
+   },
+   {
+    "bundle": "的书",
+    "count": 2169,
+    "per10k": 13.24
+   },
+   {
+    "bundle": "我的",
+    "count": 2044,
+    "per10k": 12.47
+   },
+   {
+    "bundle": "的人",
+    "count": 2022,
+    "per10k": 12.34
+   },
+   {
+    "bundle": "买的",
+    "count": 1975,
+    "per10k": 12.05
+   },
+   {
+    "bundle": "的是",
+    "count": 1923,
+    "per10k": 11.74
+   },
+   {
+    "bundle": "去的",
+    "count": 1921,
+    "per10k": 11.72
+   },
+   {
+    "bundle": "不知道",
+    "count": 1866,
+    "per10k": 11.39
+   },
+   {
+    "bundle": "也很",
+    "count": 1668,
+    "per10k": 10.18
+   },
+   {
+    "bundle": "是我",
+    "count": 1538,
+    "per10k": 9.39
+   },
+   {
+    "bundle": "的东西",
+    "count": 1533,
+    "per10k": 9.36
+   },
+   {
+    "bundle": "看了",
+    "count": 1488,
+    "per10k": 9.08
+   },
+   {
+    "bundle": "也是",
+    "count": 1400,
+    "per10k": 8.54
+   },
+   {
+    "bundle": "的地方",
+    "count": 1349,
+    "per10k": 8.23
+   },
+   {
+    "bundle": "喜欢的",
+    "count": 1330,
+    "per10k": 8.12
+   },
+   {
+    "bundle": "吃了",
+    "count": 1312,
+    "per10k": 8.01
+   },
+   {
+    "bundle": "的我",
+    "count": 1290,
+    "per10k": 7.87
+   },
+   {
+    "bundle": "的很",
+    "count": 1264,
+    "per10k": 7.71
+   },
+   {
+    "bundle": "不是很",
+    "count": 1214,
+    "per10k": 7.41
+   },
+   {
+    "bundle": "去吃",
+    "count": 1213,
+    "per10k": 7.4
+   },
+   {
+    "bundle": "里面的",
+    "count": 1204,
+    "per10k": 7.35
+   },
+   {
+    "bundle": "了我",
+    "count": 1194,
+    "per10k": 7.29
+   }
+  ],
+  "distinctive": [
+   {
+    "bundle": "他们家的",
+    "count": 427,
+    "log2_lift": 8.23
+   },
+   {
+    "bundle": "环境很",
+    "count": 346,
+    "log2_lift": 8.15
+   },
+   {
+    "bundle": "的一本书",
+    "count": 582,
+    "log2_lift": 8.02
+   },
+   {
+    "bundle": "了这本书",
+    "count": 256,
+    "log2_lift": 7.97
+   },
+   {
+    "bundle": "书是",
+    "count": 197,
+    "log2_lift": 7.6
+   },
+   {
+    "bundle": "一家店",
+    "count": 218,
+    "log2_lift": 7.48
+   },
+   {
+    "bundle": "去吃的",
+    "count": 273,
+    "log2_lift": 7.39
+   },
+   {
+    "bundle": "感觉还行",
+    "count": 166,
+    "log2_lift": 7.35
+   },
+   {
+    "bundle": "感觉还可以",
+    "count": 195,
+    "log2_lift": 7.32
+   },
+   {
+    "bundle": "质量很",
+    "count": 192,
+    "log2_lift": 7.3
+   },
+   {
+    "bundle": "很实用",
+    "count": 193,
+    "log2_lift": 7.3
+   },
+   {
+    "bundle": "一般了",
+    "count": 161,
+    "log2_lift": 7.3
+   },
+   {
+    "bundle": "很好用",
+    "count": 156,
+    "log2_lift": 7.26
+   },
+   {
+    "bundle": "没什么特别",
+    "count": 154,
+    "log2_lift": 7.24
+   },
+   {
+    "bundle": "一般吧",
+    "count": 333,
+    "log2_lift": 7.22
+   },
+   {
+    "bundle": "了这家",
+    "count": 240,
+    "log2_lift": 7.2
+   },
+   {
+    "bundle": "正版的",
+    "count": 147,
+    "log2_lift": 7.17
+   },
+   {
+    "bundle": "拌饭",
+    "count": 145,
+    "log2_lift": 7.15
+   },
+   {
+    "bundle": "这家的",
+    "count": 317,
+    "log2_lift": 7.14
+   },
+   {
+    "bundle": "很精致",
+    "count": 143,
+    "log2_lift": 7.13
+   }
+  ]
+ },
+ "longform": {
+  "tokens": 1353528,
+  "top": [
+   {
+    "bundle": "月日",
+    "count": 2958,
+    "per10k": 21.85
+   },
+   {
+    "bundle": "年月",
+    "count": 2823,
+    "per10k": 20.86
+   },
+   {
+    "bundle": "年月日",
+    "count": 1488,
+    "per10k": 10.99
+   },
+   {
+    "bundle": "也是",
+    "count": 843,
+    "per10k": 6.23
+   },
+   {
+    "bundle": "本基金",
+    "count": 821,
+    "per10k": 6.07
+   },
+   {
+    "bundle": "的是",
+    "count": 737,
+    "per10k": 5.45
+   },
+   {
+    "bundle": "都是",
+    "count": 701,
+    "per10k": 5.18
+   },
+   {
+    "bundle": "中的",
+    "count": 654,
+    "per10k": 4.83
+   },
+   {
+    "bundle": "自己的",
+    "count": 648,
+    "per10k": 4.79
+   },
+   {
+    "bundle": "于年",
+    "count": 591,
+    "per10k": 4.37
+   },
+   {
+    "bundle": "的人",
+    "count": 578,
+    "per10k": 4.27
+   },
+   {
+    "bundle": "基金管理",
+    "count": 568,
+    "per10k": 4.2
+   },
+   {
+    "bundle": "的时候",
+    "count": 545,
+    "per10k": 4.03
+   },
+   {
+    "bundle": "在年",
+    "count": 536,
+    "per10k": 3.96
+   },
+   {
+    "bundle": "更多",
+    "count": 503,
+    "per10k": 3.72
+   },
+   {
+    "bundle": "证券投资",
+    "count": 463,
+    "per10k": 3.42
+   },
+   {
+    "bundle": "管理人",
+    "count": 462,
+    "per10k": 3.41
+   },
+   {
+    "bundle": "上的",
+    "count": 438,
+    "per10k": 3.24
+   },
+   {
+    "bundle": "募集资金",
+    "count": 426,
+    "per10k": 3.15
+   },
+   {
+    "bundle": "的情况",
+    "count": 420,
+    "per10k": 3.1
+   },
+   {
+    "bundle": "股份有限公司",
+    "count": 418,
+    "per10k": 3.09
+   },
+   {
+    "bundle": "他的",
+    "count": 412,
+    "per10k": 3.04
+   },
+   {
+    "bundle": "投资基金",
+    "count": 410,
+    "per10k": 3.03
+   },
+   {
+    "bundle": "证券投资基金",
+    "count": 380,
+    "per10k": 2.81
+   },
+   {
+    "bundle": "于年月",
+    "count": 360,
+    "per10k": 2.66
+   },
+   {
+    "bundle": "是在",
+    "count": 350,
+    "per10k": 2.59
+   },
+   {
+    "bundle": "人的",
+    "count": 348,
+    "per10k": 2.57
+   },
+   {
+    "bundle": "基金管理人",
+    "count": 337,
+    "per10k": 2.49
+   },
+   {
+    "bundle": "报告期内",
+    "count": 333,
+    "per10k": 2.46
+   },
+   {
+    "bundle": "年的",
+    "count": 327,
+    "per10k": 2.42
+   }
+  ],
+  "distinctive": [
+   {
+    "bundle": "基金管理",
+    "count": 568,
+    "log2_lift": 8.96
+   },
+   {
+    "bundle": "基金投资",
+    "count": 121,
+    "log2_lift": 7.22
+   },
+   {
+    "bundle": "信息披露",
+    "count": 119,
+    "log2_lift": 7.19
+   },
+   {
+    "bundle": "第名",
+    "count": 94,
+    "log2_lift": 6.85
+   },
+   {
+    "bundle": "的债券",
+    "count": 84,
+    "log2_lift": 6.69
+   },
+   {
+    "bundle": "长按二维码",
+    "count": 74,
+    "log2_lift": 6.51
+   },
+   {
+    "bundle": "上市的",
+    "count": 70,
+    "log2_lift": 6.43
+   },
+   {
+    "bundle": "月日至年",
+    "count": 70,
+    "log2_lift": 6.43
+   },
+   {
+    "bundle": "日至年月",
+    "count": 70,
+    "log2_lift": 6.43
+   },
+   {
+    "bundle": "交易的",
+    "count": 95,
+    "log2_lift": 6.38
+   },
+   {
+    "bundle": "对报告",
+    "count": 66,
+    "log2_lift": 6.34
+   },
+   {
+    "bundle": "持有的",
+    "count": 154,
+    "log2_lift": 6.3
+   },
+   {
+    "bundle": "按二维码",
+    "count": 77,
+    "log2_lift": 6.3
+   },
+   {
+    "bundle": "股份有限公司",
+    "count": 418,
+    "log2_lift": 6.28
+   },
+   {
+    "bundle": "的公告",
+    "count": 109,
+    "log2_lift": 6.22
+   },
+   {
+    "bundle": "日至年",
+    "count": 70,
+    "log2_lift": 6.17
+   },
+   {
+    "bundle": "一带一路",
+    "count": 57,
+    "log2_lift": 6.13
+   },
+   {
+    "bundle": "公司与",
+    "count": 54,
+    "log2_lift": 6.05
+   },
+   {
+    "bundle": "基金的",
+    "count": 306,
+    "log2_lift": 5.92
+   },
+   {
+    "bundle": "的股权",
+    "count": 49,
+    "log2_lift": 5.91
+   }
+  ]
+ }
+}

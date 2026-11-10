@@ -87,8 +87,13 @@ def main():
     ap.add_argument("--workers", type=int, default=12)
     ap.add_argument("--limit", type=int, default=0)
     args = ap.parse_args()
-    paths = args.input or sorted(glob.glob(os.path.join(common.WORK, "**", "sample_*.jsonl.gz"), recursive=True)) + \
-        [os.path.join(common.WORK, "lccc_sample.jsonl.gz")]
+    paths = args.input or [
+        os.path.join(common.WORK, "lccc_sample.jsonl.gz"),
+        os.path.join(common.WORK, "codedoc_sample.jsonl.gz"),
+        os.path.join(common.WORK, "literary_sample.jsonl.gz"),
+        os.path.join(common.WORK, "thucnews_sample.jsonl.gz"),
+        os.path.join(common.WORK, "classical_sample.jsonl.gz"),
+    ] + sorted(glob.glob(os.path.join(common.WORK, "clue", "sample_*.jsonl.gz")))
     paths = [p for p in paths if os.path.exists(p)]
     print("inputs:", *paths, sep="\n  ")
     os.makedirs(args.outdir, exist_ok=True)

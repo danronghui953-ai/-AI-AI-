@@ -1,0 +1,69 @@
+{
+ "classical": {
+  "n": 20000,
+  "mean_ai_prob": 0.2128,
+  "p10": 0.0482,
+  "p50": 0.1715,
+  "p90": 0.4326,
+  "auc_reference": null
+ },
+ "codedoc": {
+  "n": 2112,
+  "mean_ai_prob": 0.7907,
+  "p10": 0.0001,
+  "p50": 1.0,
+  "p90": 1.0,
+  "auc_reference": null
+ },
+ "im": {
+  "n": 20000,
+  "mean_ai_prob": 0.0029,
+  "p10": 0.0003,
+  "p50": 0.0016,
+  "p90": 0.0064,
+  "auc_reference": null
+ },
+ "literary": {
+  "n": 2021,
+  "mean_ai_prob": 0.0122,
+  "p10": 0.0,
+  "p50": 0.0,
+  "p90": 0.0086,
+  "auc_reference": null
+ },
+ "longform": {
+  "n": 20000,
+  "mean_ai_prob": 0.0217,
+  "p10": 0.0,
+  "p50": 0.002,
+  "p90": 0.0421,
+  "auc_reference": null
+ },
+ "news": {
+  "n": 20000,
+  "mean_ai_prob": 0.0957,
+  "p10": 0.0004,
+  "p50": 0.0348,
+  "p90": 0.2778,
+  "auc_reference": null
+ },
+ "opinion": {
+  "n": 20000,
+  "mean_ai_prob": 0.0012,
+  "p10": 0.0001,
+  "p50": 0.0007,
+  "p90": 0.0027,
+  "auc_reference": null
+ },
+ "_note": "分类器在 HC3 中文人类回答 vs GPT-3.5 回答上训练，分数是「被判定为 AI 的概率」。已剔除 chars/n_sents 等长度特征，否则分类器学的是长短而不是写法。只作相对参考，AI 侧是 2022 年模型。",
+ "_dropped_features": [
+  "chars",
+  "n_paras",
+  "n_sents",
+  "newline_ratio",
+  "para_cv",
+  "para_mean",
+  "para_sent_ratio",
+  "sent_max"
+ ]
+}

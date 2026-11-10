@@ -45,7 +45,7 @@ def main():
     print("feature rows", len(rows), f"{time.time()-t0:.0f}s")
 
     names = sorted({k for f, _ in rows for k in f})
-    X = [[f.get(k, 0.0) for k in names] for f, _ in rows]
+    X = [[0.0 if f.get(k) is None else f.get(k) for k in names] for f, _ in rows]
     yy = [label for _, label in rows]
 
     import numpy as np
@@ -58,6 +58,10 @@ def main():
 
     X = np.array(X, dtype=np.float32)
     yy = np.array(yy)
+    # keep the design matrix so downstream analyses can reuse the same
+    # human-vs-GPT-3.5 classifier without recomputing 30k feature rows
+    np.savez_compressed(os.path.join(os.path.dirname(args.out), "hc3_features.npz"),
+                        X=X, y=yy, names=np.array(names, dtype=object))
     cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=20261110)
     results = {}
     for name, clf in [
@@ -72,8 +76,8 @@ def main():
     # univariate direction: human mean vs ai mean for key features
     contrasts = {}
     for k in names:
-        a = np.array([f.get(k, 0.0) for f, lab in rows if lab == 0])
-        b = np.array([f.get(k, 0.0) for f, lab in rows if lab == 1])
+        a = np.array([0.0 if f.get(k) is None else f.get(k) for f, lab in rows if lab == 0])
+        b = np.array([0.0 if f.get(k) is None else f.get(k) for f, lab in rows if lab == 1])
         if a.std() + b.std() == 0:
             continue
         d = (a.mean() - b.mean()) / (np.sqrt((a.var() + b.var()) / 2) + 1e-9)

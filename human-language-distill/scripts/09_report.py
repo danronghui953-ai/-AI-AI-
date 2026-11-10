@@ -73,7 +73,8 @@ def mean(prof, key):
 
 
 def key_table(profiles: dict) -> str:
-    genres = [g for g in ["im", "longform", "opinion", "codedoc", "literary"] if g in profiles]
+    genres = [g for g in ["im", "longform", "opinion", "news", "codedoc",
+                          "literary", "classical"] if g in profiles]
     lines = ["| 指标 | " + " | ".join(genres) + " |", "|---|" + "---|" * len(genres)]
     for k in KEYS:
         vals = []
@@ -115,6 +116,13 @@ def make_rules(profiles: dict, validation: dict) -> str:
              (f"- 「两边都对」句式均值 {fnum(mean(op,'both_sides_per100'),2)}/百字（P90 {fnum(p90(op,'both_sides_per100'),2)}）；高于 P90 说明不敢表态。\n"
               if (p90(op,'both_sides_per100') or 0) > 0 else "") +
              f"- 限定词均值 {fnum(mean(op,'hedge_per100'),2)}/百字（P90 {fnum(p90(op,'hedge_per100'),2)}）；只放在低置信断言上，不要平均撒。")
+    nw = profiles.get("news")
+    if nw:
+        rule("新闻：先给可以核查的事实",
+             f"- 数字密度中位数 {fnum(p50(nw,'digit_per100'),2)}/百字（P10–P90：{fnum(p10(nw,'digit_per100'),2)}–{fnum(p90(nw,'digit_per100'),2)}）。\n"
+             f"- 专名密度中位数 {fnum(p50(nw,'ne_per100'),2)}/百字；低于 P10 通常说明消息源不清楚。\n"
+             f"- 明确判断密度中位数 {fnum(p50(nw,'judgment_per100'),2)}/百字，低于观点类"
+             f"（{fnum(p50(op,'judgment_per100'),2)}）；新闻里判断越少，可信度越高。")
     rule("所有文体：具体压抽象",
          f"- 数字密度：长文 {fnum(p50(lf,'digit_per100'),2)}/百字，观点 {fnum(p50(op,'digit_per100'),2)}/百字（P10 分别为 {fnum(p10(lf,'digit_per100'),2)}、{fnum(p10(op,'digit_per100'),2)}）。低于 P10 通常是空话。\n"
          f"- 专名密度：长文 {fnum(p50(lf,'ne_per100'),2)}/百字，观点 {fnum(p50(op,'ne_per100'),2)}/百字。\n"
@@ -148,7 +156,8 @@ def make_report(profiles, validation, reliability, counts) -> str:
         lines.append(f"- **{g}**：{p['n_docs']:,} 篇，{p['n_chars']:,} 字（{subs}）。")
     lines.extend(["", "来源与许可见 `sources.yaml`。新闻、社区、评论来自 CLUECorpusSmall；"
                   "对话来自 LCCC；代码文档来自 2022 年前已停止推送的 GitHub 仓库；"
-                  "文学来自 Wikisource 公版作者。", "", "## 核心画像", "",
+                  "文学来自 Wikisource 公版作者；新闻专版来自 THUCNews；"
+                  "古诗文来自 chinese-poetry（公版文本）。", "", "## 核心画像", "",
                   key_table(profiles), "",
                   "数字是各体裁的中位数（P50）。完整的分位数、均值和 bootstrap 置信区间在 `profile/genre/*.json`。",
                   "", "## 关键发现", ""])
@@ -162,6 +171,17 @@ def make_report(profiles, validation, reliability, counts) -> str:
     if lf:
         lines.append(f"- 长文的模板开场率和收尾率都接近 {fnum(p50(lf,'opening_template'),2)}。"
                      "「随着……的发展」「综上所述」在人类样本里是少数派。")
+    news = profiles.get("news")
+    if news and lf:
+        lines.append(f"- 新闻的数字密度中位数 {fnum(p50(news,'digit_per100'),2)}/百字，"
+                     f"长文 {fnum(p50(lf,'digit_per100'),2)}/百字；"
+                     f"专名密度 {fnum(p50(news,'ne_per100'),2)} vs {fnum(p50(lf,'ne_per100'),2)}。"
+                     "新闻靠可核查的具体信息立住，观点文章靠判断立住，两者的具体性不能用同一把尺。")
+    cl = profiles.get("classical")
+    if cl:
+        lines.append(f"- 古诗文的平均句长 {fnum(p50(cl,'sent_mean'),1)} 字，"
+                     f"句长变异系数 {fnum(p50(cl,'sent_cv'),2)}。"
+                     "它的节奏由格律决定，不适合拿现代散文的句长规则去套，单列出来是为了给「短句」一个历史参照。")
     if validation.get("models"):
         auc = max(v["auc"] for v in validation["models"].values())
         lines.append(f"- 用这些特征区分 HC3 的人类回答和 GPT-3.5 回答，AUC 最高 {auc:.3f}。"
@@ -182,6 +202,9 @@ def make_report(profiles, validation, reliability, counts) -> str:
                   "- HC3 的 AI 侧是 2022 年 GPT-3.5。它只能证明指标有区分力，不能证明对 2026 年的模型有效。",
                   "- 代码文档规模最小，且偏向 2022 年前已停止推送的仓库，存在选择偏差。",
                   "- CLUECorpusSmall 每行一篇，长文没有换行，`para_cv` 在 longform / opinion 上恒为 0，不参与规则。",
+                  "- classical 的建模单元是单首诗或单段古文，中位长度不到百字。"
+                  "依赖长上下文的指标（MTLD、相邻句相似度）在短文本上大量缺失，只按有效样本统计。",
+                  "- news 只有时政、科技、体育三类。财经和社会的源文件下载中断，话题分布有偏。",
                   "- 没有人类盲测。结论是语料级分布，不是「读者觉得像人」的因果证据。",
                   "- 新闻、社区原文有版权，仓库只放统计结果和 ≤300 字范例。",
                   "", "## 复现", "",
@@ -190,12 +213,14 @@ def make_report(profiles, validation, reliability, counts) -> str:
                   "python3 02_scan_clue.py      # 需要先下载 CLUECorpusSmall",
                   "python3 03_scan_lccc.py",
                   "python3 04a_collect_repos.py && python3 04b_fetch_readmes.py",
-                  "python3 05_scan_literary.py",
+                  "python3 05_scan_literary.py && python3 05b_clean_literary.py",
+                  "python3 11_extract_thucnews.py && python3 12_extract_classical.py",
                   "python3 06_features.py",
                   "python3 07_profile.py",
                   "python3 07b_reliability.py",
                   "python3 08_validate.py",
                   "python3 09_report.py",
+                  "python3 13_deep.py && python3 14_step2_report.py",
                   "```", ""])
     return "\n".join(lines)
 
@@ -244,6 +269,7 @@ def select_exemplars(profiles):
         "im": [(os.path.join(common.WORK, "lccc_sample.jsonl.gz"), "lccc", "MIT")],
         "longform": [(os.path.join(common.WORK, "clue", "sample_wiki.jsonl.gz"), "clue-wiki", "CC BY-SA 4.0")],
         "literary": [(os.path.join(common.WORK, "literary_sample.jsonl.gz"), "wikisource", "Public Domain")],
+        "classical": [(os.path.join(common.WORK, "classical_sample.jsonl.gz"), "chinese-poetry", "Public Domain")],
         "codedoc": [(os.path.join(common.WORK, "codedoc_sample.jsonl.gz"), "github", None)],
     }
     index = []
@@ -314,6 +340,9 @@ def make_readme(profiles, validation) -> str:
              "| 路径 | 内容 |", "|---|---|",
              "| `profile/genre/*.json` | 每个体裁的特征分布、分位数、bootstrap 置信区间 |",
              "| `profile/validation.json` | HC3 人机对照的 AUC 和效应量 |",
+             "| `profile/deep/*.json` | 标点、短语、开头结尾、篇幅分层、体裁距离、人味分数 |",
+             "| `reports/step2-report.md` | 第二轮分析结果 |",
+             "| `reports/step2-plan.md` | 第二步计划与已知缺口 |",
              "| `profile/reliability.json` | 单篇折半信度诊断 |",
              "| `rules.md` | 由画像数字生成的写作规则 |",
              "| `exemplars/` | 许可干净的短范例，每条 ≤300 字 |",
@@ -332,6 +361,8 @@ def make_readme(profiles, validation) -> str:
                   "- LCCC（MIT，2020）：微博多轮对话。",
                   "- GitHub 中文 README（2022 年前已停止推送的仓库，按仓库许可）。",
                   "- Wikisource 公版文学（作者去世超过 50 年）。",
+                  "- THUCNews 新闻（时政 / 科技 / 体育，2007–2011 年新浪新闻）。",
+                  "- chinese-poetry 古诗文（唐诗、宋词、元曲、四书五经，公版文本）。",
                   "- HC3 中文（CC BY-SA 4.0）：只做验证，不进主语料。", "",
                   "原始语料不进仓库。仓库只放统计结果和 ≤300 字范例。", "",
                   "## 复现", "",
@@ -340,11 +371,13 @@ def make_readme(profiles, validation) -> str:
                   "python3 02_scan_clue.py",
                   "python3 03_scan_lccc.py",
                   "python3 04a_collect_repos.py && python3 04b_fetch_readmes.py",
-                  "python3 05_scan_literary.py",
+                  "python3 05_scan_literary.py && python3 05b_clean_literary.py",
+                  "python3 11_extract_thucnews.py && python3 12_extract_classical.py",
                   "python3 06_features.py",
                   "python3 07_profile.py && python3 07b_reliability.py",
                   "python3 08_validate.py",
                   "python3 09_report.py",
+                  "python3 13_deep.py && python3 14_step2_report.py",
                   "```", "",
                   "需要先按 `sources.yaml` 下载原始语料，路径写在 `scripts/common.py`。", ""])
     return "\n".join(lines)

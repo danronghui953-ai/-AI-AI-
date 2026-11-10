@@ -1,0 +1,146 @@
+{
+ "classical": {
+  "chars": 12000015,
+  "per_1000": {
+   "booktitle": 0.001,
+   "colon": 0.026,
+   "comma": 68.187,
+   "ellipsis": 0.003,
+   "enum": 0.002,
+   "exclaim": 0.001,
+   "middot": 0.0,
+   "newline": 51.887,
+   "paren": 0.004,
+   "period": 67.792,
+   "question": 0.002,
+   "quote": 0.0,
+   "semicolon": 0.0,
+   "slash": 0.003
+  },
+  "punct_per_1000": 187.909
+ },
+ "codedoc": {
+  "chars": 6108000,
+  "per_1000": {
+   "booktitle": 0.841,
+   "colon": 6.421,
+   "comma": 17.436,
+   "dash": 17.21,
+   "ellipsis": 0.276,
+   "enum": 3.309,
+   "exclaim": 1.44,
+   "middot": 0.058,
+   "newline": 43.046,
+   "paren": 15.863,
+   "period": 15.923,
+   "question": 0.732,
+   "quote": 5.162,
+   "semicolon": 1.584,
+   "slash": 5.468
+  },
+  "punct_per_1000": 134.769
+ },
+ "im": {
+  "chars": 12000036,
+  "per_1000": {
+   "booktitle": 0.133,
+   "colon": 0.196,
+   "comma": 29.591,
+   "dash": 0.286,
+   "ellipsis": 3.697,
+   "enum": 0.613,
+   "exclaim": 11.044,
+   "middot": 0.56,
+   "newline": 57.538,
+   "paren": 0.303,
+   "period": 16.007,
+   "question": 8.708,
+   "quote": 0.789,
+   "semicolon": 0.028,
+   "slash": 0.028
+  },
+  "punct_per_1000": 129.522
+ },
+ "literary": {
+  "chars": 6530600,
+  "per_1000": {
+   "booktitle": 10.518,
+   "colon": 2.769,
+   "comma": 57.796,
+   "dash": 2.31,
+   "ellipsis": 0.942,
+   "enum": 1.888,
+   "exclaim": 2.195,
+   "middot": 0.283,
+   "newline": 11.401,
+   "paren": 6.145,
+   "period": 29.956,
+   "question": 2.15,
+   "quote": 17.349,
+   "semicolon": 3.136,
+   "slash": 0.066
+  },
+  "punct_per_1000": 148.902
+ },
+ "longform": {
+  "chars": 12000852,
+  "per_1000": {
+   "booktitle": 2.918,
+   "colon": 3.463,
+   "comma": 39.138,
+   "dash": 2.62,
+   "ellipsis": 0.162,
+   "enum": 10.037,
+   "exclaim": 0.804,
+   "middot": 0.483,
+   "paren": 5.859,
+   "period": 20.589,
+   "question": 0.652,
+   "quote": 6.709,
+   "semicolon": 1.56,
+   "slash": 0.615
+  },
+  "punct_per_1000": 95.611
+ },
+ "news": {
+  "chars": 12000252,
+  "per_1000": {
+   "booktitle": 2.289,
+   "colon": 1.941,
+   "comma": 37.563,
+   "dash": 0.755,
+   "ellipsis": 0.032,
+   "enum": 10.167,
+   "exclaim": 0.114,
+   "middot": 0.338,
+   "newline": 10.258,
+   "paren": 4.13,
+   "period": 18.432,
+   "question": 0.599,
+   "quote": 9.062,
+   "semicolon": 1.177,
+   "slash": 0.073
+  },
+  "punct_per_1000": 96.933
+ },
+ "opinion": {
+  "chars": 12000004,
+  "per_1000": {
+   "booktitle": 0.817,
+   "colon": 0.536,
+   "comma": 34.64,
+   "dash": 0.581,
+   "ellipsis": 0.611,
+   "enum": 1.328,
+   "exclaim": 2.232,
+   "middot": 0.545,
+   "paren": 0.426,
+   "period": 21.192,
+   "question": 1.554,
+   "quote": 0.547,
+   "semicolon": 0.114,
+   "slash": 0.139
+  },
+  "punct_per_1000": 65.264
+ }
+}

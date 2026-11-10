@@ -10,6 +10,15 @@ from common import RAW, WORK
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# files that are not single top-level sources but still belong in the checksum
+# manifest (the THUCNews downloads are partial on purpose)
+EXTRA_HASH = [
+    ("poetry.tgz", "chinese-poetry.tgz"),
+    ("thucnews/时政.jsonl", "thucnews_时政.jsonl"),
+    ("thucnews/科技.jsonl", "thucnews_科技.jsonl"),
+    ("thucnews/体育.jsonl", "thucnews_体育.jsonl"),
+]
+
 RAW_FILES = [
     ("CLUECorpusSmall.txt", "clue", "CLUECorpusSmall（allenai/CLUECorpusSmall 镜像）",
      "https://huggingface.co/datasets/austenjs/ClueCorpusSmallDataset", "MIT（数据集打包）；文本版权归原作者"),
@@ -54,6 +63,19 @@ def sources_yaml(checksums):
             f"    sha256: {checksums.get(fn, 'MISSING')}",
         ]
     lines += [
+        "  - id: thucnews",
+        '    name: "THUCNews（2007–2011 新浪新闻，时政/科技/体育）"',
+        "    url: https://huggingface.co/datasets/Tongjilibo/THUCNews",
+        '    license: "Apache-2.0 打包；新闻正文版权归新浪及原作者"',
+        "    selection: 每类最多 1500 万字，200-20000 字，CJK>=0.50",
+        "    note: 财经、社会两类源文件下载中断，未纳入",
+        "    file: work/thucnews_sample.jsonl.gz",
+        "  - id: chinese-poetry",
+        '    name: "chinese-poetry 古诗文（唐诗/宋词/元曲/四书五经）"',
+        "    url: https://github.com/chinese-poetry/chinese-poetry",
+        '    license: "MIT（仓库代码）；文本为公版"',
+        "    selection: 唐诗 1200 万字，宋词 1000 万字上限（实际 187 万），元曲 400 万（实际 100 万），经部 800 万（实际 17 万）",
+        "    file: work/classical_sample.jsonl.gz",
         "  - id: github-readme",
         '    name: "GitHub 中文 README（2022-01-01 前最后推送的仓库）"',
         "    url: https://api.github.com/search/repositories",
@@ -86,6 +108,11 @@ def main():
         if os.path.exists(p):
             checksums[fn] = sha256(p)
             print(f"  {fn} {checksums[fn][:16]}…")
+    for src, label in EXTRA_HASH:
+        p = os.path.join(RAW, src)
+        if os.path.exists(p):
+            checksums[label] = sha256(p)
+            print(f"  {label} {checksums[label][:16]}…")
 
     with open(os.path.join(ROOT, "sources.yaml"), "w") as f:
         f.write(sources_yaml(checksums))

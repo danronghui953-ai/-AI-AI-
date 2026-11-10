@@ -1,5 +1,5 @@
 {
- "count": 71,
+ "count": 91,
  "items": [
   {
    "file": "exemplars/im/001.md",
@@ -365,10 +365,10 @@
    "file": "exemplars/literary/001.md",
    "genre": "literary",
    "subgenre": "prose",
-   "chars": 299,
+   "chars": 300,
    "source": "wikisource",
    "license": "Public Domain",
-   "id": "828b2ec94b3c2710"
+   "id": "ff46036b0681650f"
   },
   {
    "file": "exemplars/literary/002.md",
@@ -377,7 +377,7 @@
    "chars": 300,
    "source": "wikisource",
    "license": "Public Domain",
-   "id": "e63e269d79564956"
+   "id": "7145c7a0192cd253"
   },
   {
    "file": "exemplars/literary/003.md",
@@ -386,7 +386,7 @@
    "chars": 300,
    "source": "wikisource",
    "license": "Public Domain",
-   "id": "32a3fa1f8688aee9"
+   "id": "cb6d4d1d2b3ee63c"
   },
   {
    "file": "exemplars/literary/004.md",
@@ -395,7 +395,7 @@
    "chars": 300,
    "source": "wikisource",
    "license": "Public Domain",
-   "id": "91dfc9812926eeb3"
+   "id": "f28634118cdb34f5"
   },
   {
    "file": "exemplars/literary/005.md",
@@ -404,7 +404,7 @@
    "chars": 300,
    "source": "wikisource",
    "license": "Public Domain",
-   "id": "b19a8dbd86cb1486"
+   "id": "77913c69bb92b0ce"
   },
   {
    "file": "exemplars/literary/006.md",
@@ -413,7 +413,7 @@
    "chars": 300,
    "source": "wikisource",
    "license": "Public Domain",
-   "id": "e4ff4ba6279af833"
+   "id": "e64f5b7cc41faa72"
   },
   {
    "file": "exemplars/literary/007.md",
@@ -422,7 +422,7 @@
    "chars": 300,
    "source": "wikisource",
    "license": "Public Domain",
-   "id": "2b37b8c6c1d2be5d"
+   "id": "0062306ffc32dff1"
   },
   {
    "file": "exemplars/literary/008.md",
@@ -431,7 +431,7 @@
    "chars": 300,
    "source": "wikisource",
    "license": "Public Domain",
-   "id": "464ada123f4c49fb"
+   "id": "e6e734e8e0ef52b7"
   },
   {
    "file": "exemplars/literary/009.md",
@@ -440,7 +440,7 @@
    "chars": 300,
    "source": "wikisource",
    "license": "Public Domain",
-   "id": "58c974cb8a6ce2f0"
+   "id": "204d9b636ef82204"
   },
   {
    "file": "exemplars/literary/010.md",
@@ -449,7 +449,7 @@
    "chars": 300,
    "source": "wikisource",
    "license": "Public Domain",
-   "id": "2b64b8988d33ca3f"
+   "id": "af3ed56ba08ab995"
   },
   {
    "file": "exemplars/literary/011.md",
@@ -458,7 +458,7 @@
    "chars": 300,
    "source": "wikisource",
    "license": "Public Domain",
-   "id": "8f1616a1fe1ec3c8"
+   "id": "46c1575aa080d9a0"
   },
   {
    "file": "exemplars/literary/012.md",
@@ -467,7 +467,7 @@
    "chars": 300,
    "source": "wikisource",
    "license": "Public Domain",
-   "id": "7eb65576617ca6aa"
+   "id": "b41f3a8a6871bfdf"
   },
   {
    "file": "exemplars/literary/013.md",
@@ -476,7 +476,7 @@
    "chars": 300,
    "source": "wikisource",
    "license": "Public Domain",
-   "id": "5f414ca730d87df4"
+   "id": "8e791e751fc11e4a"
   },
   {
    "file": "exemplars/literary/014.md",
@@ -485,7 +485,7 @@
    "chars": 300,
    "source": "wikisource",
    "license": "Public Domain",
-   "id": "df8f98a328ab5dbd"
+   "id": "384a2769e3bcc10a"
   },
   {
    "file": "exemplars/literary/015.md",
@@ -494,7 +494,7 @@
    "chars": 300,
    "source": "wikisource",
    "license": "Public Domain",
-   "id": "4a43b4107eb5e732"
+   "id": "2caffefc465db971"
   },
   {
    "file": "exemplars/literary/016.md",
@@ -503,7 +503,7 @@
    "chars": 300,
    "source": "wikisource",
    "license": "Public Domain",
-   "id": "5cf87033adffccdb"
+   "id": "89e01bbda6e7e6e3"
   },
   {
    "file": "exemplars/literary/017.md",
@@ -512,7 +512,7 @@
    "chars": 300,
    "source": "wikisource",
    "license": "Public Domain",
-   "id": "b9a1c7a17fa2ca67"
+   "id": "c071e35f7253f6c7"
   },
   {
    "file": "exemplars/literary/018.md",
@@ -521,7 +521,7 @@
    "chars": 300,
    "source": "wikisource",
    "license": "Public Domain",
-   "id": "29819777d3a9f655"
+   "id": "b246cab11d13d8fe"
   },
   {
    "file": "exemplars/literary/019.md",
@@ -530,7 +530,7 @@
    "chars": 300,
    "source": "wikisource",
    "license": "Public Domain",
-   "id": "4d8e5efb28f785bf"
+   "id": "b36701318f57cb67"
   },
   {
    "file": "exemplars/literary/020.md",
@@ -539,7 +539,187 @@
    "chars": 300,
    "source": "wikisource",
    "license": "Public Domain",
-   "id": "9ecb24246cf07f95"
+   "id": "959d099df5708079"
+  },
+  {
+   "file": "exemplars/classical/001.md",
+   "genre": "classical",
+   "subgenre": "tang_poetry",
+   "chars": 237,
+   "source": "chinese-poetry",
+   "license": "Public Domain",
+   "id": "d31de8ede132c87c"
+  },
+  {
+   "file": "exemplars/classical/002.md",
+   "genre": "classical",
+   "subgenre": "tang_poetry",
+   "chars": 164,
+   "source": "chinese-poetry",
+   "license": "Public Domain",
+   "id": "2782bfce3581ee40"
+  },
+  {
+   "file": "exemplars/classical/003.md",
+   "genre": "classical",
+   "subgenre": "tang_poetry",
+   "chars": 181,
+   "source": "chinese-poetry",
+   "license": "Public Domain",
+   "id": "f71def3dfe4fb991"
+  },
+  {
+   "file": "exemplars/classical/004.md",
+   "genre": "classical",
+   "subgenre": "tang_poetry",
+   "chars": 207,
+   "source": "chinese-poetry",
+   "license": "Public Domain",
+   "id": "14d2c5ca4b840026"
+  },
+  {
+   "file": "exemplars/classical/005.md",
+   "genre": "classical",
+   "subgenre": "tang_poetry",
+   "chars": 194,
+   "source": "chinese-poetry",
+   "license": "Public Domain",
+   "id": "bf81ba8104586193"
+  },
+  {
+   "file": "exemplars/classical/006.md",
+   "genre": "classical",
+   "subgenre": "tang_poetry",
+   "chars": 300,
+   "source": "chinese-poetry",
+   "license": "Public Domain",
+   "id": "9bc164a8d827c6da"
+  },
+  {
+   "file": "exemplars/classical/007.md",
+   "genre": "classical",
+   "subgenre": "tang_poetry",
+   "chars": 300,
+   "source": "chinese-poetry",
+   "license": "Public Domain",
+   "id": "a89277670f1a17ff"
+  },
+  {
+   "file": "exemplars/classical/008.md",
+   "genre": "classical",
+   "subgenre": "tang_poetry",
+   "chars": 237,
+   "source": "chinese-poetry",
+   "license": "Public Domain",
+   "id": "80b7ae11c4749cb6"
+  },
+  {
+   "file": "exemplars/classical/009.md",
+   "genre": "classical",
+   "subgenre": "tang_poetry",
+   "chars": 155,
+   "source": "chinese-poetry",
+   "license": "Public Domain",
+   "id": "1b7e3374bba6cac0"
+  },
+  {
+   "file": "exemplars/classical/010.md",
+   "genre": "classical",
+   "subgenre": "tang_poetry",
+   "chars": 285,
+   "source": "chinese-poetry",
+   "license": "Public Domain",
+   "id": "b20211906da7843f"
+  },
+  {
+   "file": "exemplars/classical/011.md",
+   "genre": "classical",
+   "subgenre": "tang_poetry",
+   "chars": 237,
+   "source": "chinese-poetry",
+   "license": "Public Domain",
+   "id": "15c7df2121a8e884"
+  },
+  {
+   "file": "exemplars/classical/012.md",
+   "genre": "classical",
+   "subgenre": "tang_poetry",
+   "chars": 239,
+   "source": "chinese-poetry",
+   "license": "Public Domain",
+   "id": "fad3231095da5b65"
+  },
+  {
+   "file": "exemplars/classical/013.md",
+   "genre": "classical",
+   "subgenre": "yuan_qu",
+   "chars": 174,
+   "source": "chinese-poetry",
+   "license": "Public Domain",
+   "id": "77ea73285922aeb7"
+  },
+  {
+   "file": "exemplars/classical/014.md",
+   "genre": "classical",
+   "subgenre": "tang_poetry",
+   "chars": 234,
+   "source": "chinese-poetry",
+   "license": "Public Domain",
+   "id": "f7b045927820337e"
+  },
+  {
+   "file": "exemplars/classical/015.md",
+   "genre": "classical",
+   "subgenre": "song_ci",
+   "chars": 175,
+   "source": "chinese-poetry",
+   "license": "Public Domain",
+   "id": "fdac77fad975e865"
+  },
+  {
+   "file": "exemplars/classical/016.md",
+   "genre": "classical",
+   "subgenre": "tang_poetry",
+   "chars": 155,
+   "source": "chinese-poetry",
+   "license": "Public Domain",
+   "id": "b1e6deea70cb5581"
+  },
+  {
+   "file": "exemplars/classical/017.md",
+   "genre": "classical",
+   "subgenre": "tang_poetry",
+   "chars": 194,
+   "source": "chinese-poetry",
+   "license": "Public Domain",
+   "id": "3cb5a8c2feeeb740"
+  },
+  {
+   "file": "exemplars/classical/018.md",
+   "genre": "classical",
+   "subgenre": "tang_poetry",
+   "chars": 285,
+   "source": "chinese-poetry",
+   "license": "Public Domain",
+   "id": "874c230229075f0d"
+  },
+  {
+   "file": "exemplars/classical/019.md",
+   "genre": "classical",
+   "subgenre": "tang_poetry",
+   "chars": 181,
+   "source": "chinese-poetry",
+   "license": "Public Domain",
+   "id": "27901b97d1ca7090"
+  },
+  {
+   "file": "exemplars/classical/020.md",
+   "genre": "classical",
+   "subgenre": "tang_poetry",
+   "chars": 232,
+   "source": "chinese-poetry",
+   "license": "Public Domain",
+   "id": "41f0b9d7b1127fcc"
   },
   {
    "file": "exemplars/codedoc/001.md",
@@ -554,31 +734,13 @@
    "file": "exemplars/codedoc/002.md",
    "genre": "codedoc",
    "subgenre": "readme",
-   "chars": 300,
-   "source": "github",
-   "license": "Apache-2.0",
-   "id": "9abdddcc668533df"
-  },
-  {
-   "file": "exemplars/codedoc/003.md",
-   "genre": "codedoc",
-   "subgenre": "readme",
    "chars": 299,
    "source": "github",
    "license": "MIT",
    "id": "03a034c48461b3eb"
   },
   {
-   "file": "exemplars/codedoc/004.md",
-   "genre": "codedoc",
-   "subgenre": "readme",
-   "chars": 300,
-   "source": "github",
-   "license": "Apache-2.0",
-   "id": "1e1d21e20dcbbb00"
-  },
-  {
-   "file": "exemplars/codedoc/005.md",
+   "file": "exemplars/codedoc/003.md",
    "genre": "codedoc",
    "subgenre": "readme",
    "chars": 300,
@@ -587,13 +749,31 @@
    "id": "0608579ab9830bc7"
   },
   {
-   "file": "exemplars/codedoc/006.md",
+   "file": "exemplars/codedoc/004.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 300,
+   "source": "github",
+   "license": "Unlicense",
+   "id": "6e782e608753728e"
+  },
+  {
+   "file": "exemplars/codedoc/005.md",
    "genre": "codedoc",
    "subgenre": "readme",
    "chars": 300,
    "source": "github",
    "license": "MIT",
    "id": "de04ac641efe386e"
+  },
+  {
+   "file": "exemplars/codedoc/006.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 300,
+   "source": "github",
+   "license": "Apache-2.0",
+   "id": "1e1d21e20dcbbb00"
   },
   {
    "file": "exemplars/codedoc/007.md",
@@ -610,8 +790,8 @@
    "subgenre": "readme",
    "chars": 300,
    "source": "github",
-   "license": "Apache-2.0",
-   "id": "4724f38603a08ded"
+   "license": "MIT",
+   "id": "23c992908f9eaab5"
   },
   {
    "file": "exemplars/codedoc/009.md",
@@ -619,8 +799,8 @@
    "subgenre": "readme",
    "chars": 300,
    "source": "github",
-   "license": "MIT",
-   "id": "23c992908f9eaab5"
+   "license": "Apache-2.0",
+   "id": "9abdddcc668533df"
   },
   {
    "file": "exemplars/codedoc/010.md",
@@ -628,8 +808,8 @@
    "subgenre": "readme",
    "chars": 300,
    "source": "github",
-   "license": "Unlicense",
-   "id": "6e782e608753728e"
+   "license": "MIT",
+   "id": "ec6f888a7ad91958"
   },
   {
    "file": "exemplars/codedoc/011.md",
@@ -637,8 +817,8 @@
    "subgenre": "readme",
    "chars": 300,
    "source": "github",
-   "license": "MIT",
-   "id": "ec6f888a7ad91958"
+   "license": "Apache-2.0",
+   "id": "4724f38603a08ded"
   }
  ]
 }
