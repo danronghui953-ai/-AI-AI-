@@ -1,5 +1,5 @@
 {
- "count": 80,
+ "count": 71,
  "items": [
   {
    "file": "exemplars/im/001.md",
@@ -547,26 +547,26 @@
    "subgenre": "readme",
    "chars": 300,
    "source": "github",
-   "license": "permissive repo license",
-   "id": "576876e221c97bfc"
+   "license": "Apache-2.0",
+   "id": "641776742b023b59"
   },
   {
    "file": "exemplars/codedoc/002.md",
    "genre": "codedoc",
    "subgenre": "readme",
-   "chars": 299,
+   "chars": 300,
    "source": "github",
-   "license": "permissive repo license",
-   "id": "73c32b0a4142b122"
+   "license": "Apache-2.0",
+   "id": "9abdddcc668533df"
   },
   {
    "file": "exemplars/codedoc/003.md",
    "genre": "codedoc",
    "subgenre": "readme",
-   "chars": 300,
+   "chars": 299,
    "source": "github",
-   "license": "permissive repo license",
-   "id": "b0eca6c34aeb4f3e"
+   "license": "MIT",
+   "id": "03a034c48461b3eb"
   },
   {
    "file": "exemplars/codedoc/004.md",
@@ -574,8 +574,8 @@
    "subgenre": "readme",
    "chars": 300,
    "source": "github",
-   "license": "permissive repo license",
-   "id": "a05e45706c677b6b"
+   "license": "Apache-2.0",
+   "id": "1e1d21e20dcbbb00"
   },
   {
    "file": "exemplars/codedoc/005.md",
@@ -583,8 +583,8 @@
    "subgenre": "readme",
    "chars": 300,
    "source": "github",
-   "license": "permissive repo license",
-   "id": "7b1f7a5b0ad89006"
+   "license": "MIT",
+   "id": "0608579ab9830bc7"
   },
   {
    "file": "exemplars/codedoc/006.md",
@@ -592,8 +592,8 @@
    "subgenre": "readme",
    "chars": 300,
    "source": "github",
-   "license": "permissive repo license",
-   "id": "6e782e608753728e"
+   "license": "MIT",
+   "id": "de04ac641efe386e"
   },
   {
    "file": "exemplars/codedoc/007.md",
@@ -601,8 +601,8 @@
    "subgenre": "readme",
    "chars": 300,
    "source": "github",
-   "license": "permissive repo license",
-   "id": "b824ba755f788cf9"
+   "license": "MIT",
+   "id": "aaf2abf61f9eaf63"
   },
   {
    "file": "exemplars/codedoc/008.md",
@@ -610,8 +610,8 @@
    "subgenre": "readme",
    "chars": 300,
    "source": "github",
-   "license": "permissive repo license",
-   "id": "828e25fddb716cce"
+   "license": "Apache-2.0",
+   "id": "4724f38603a08ded"
   },
   {
    "file": "exemplars/codedoc/009.md",
@@ -619,8 +619,8 @@
    "subgenre": "readme",
    "chars": 300,
    "source": "github",
-   "license": "permissive repo license",
-   "id": "a3e7ab38b049fbf4"
+   "license": "MIT",
+   "id": "23c992908f9eaab5"
   },
   {
    "file": "exemplars/codedoc/010.md",
@@ -628,8 +628,8 @@
    "subgenre": "readme",
    "chars": 300,
    "source": "github",
-   "license": "permissive repo license",
-   "id": "f87fadd797e94a24"
+   "license": "Unlicense",
+   "id": "6e782e608753728e"
   },
   {
    "file": "exemplars/codedoc/011.md",
@@ -637,89 +637,8 @@
    "subgenre": "readme",
    "chars": 300,
    "source": "github",
-   "license": "permissive repo license",
-   "id": "d3a0d197a8584fe9"
-  },
-  {
-   "file": "exemplars/codedoc/012.md",
-   "genre": "codedoc",
-   "subgenre": "readme",
-   "chars": 300,
-   "source": "github",
-   "license": "permissive repo license",
-   "id": "25382c92a57ab877"
-  },
-  {
-   "file": "exemplars/codedoc/013.md",
-   "genre": "codedoc",
-   "subgenre": "readme",
-   "chars": 300,
-   "source": "github",
-   "license": "permissive repo license",
-   "id": "c7c3399a0cbf4735"
-  },
-  {
-   "file": "exemplars/codedoc/014.md",
-   "genre": "codedoc",
-   "subgenre": "readme",
-   "chars": 298,
-   "source": "github",
-   "license": "permissive repo license",
-   "id": "1c3bf46ceb380a11"
-  },
-  {
-   "file": "exemplars/codedoc/015.md",
-   "genre": "codedoc",
-   "subgenre": "readme",
-   "chars": 300,
-   "source": "github",
-   "license": "permissive repo license",
-   "id": "1ac428340969ea11"
-  },
-  {
-   "file": "exemplars/codedoc/016.md",
-   "genre": "codedoc",
-   "subgenre": "readme",
-   "chars": 300,
-   "source": "github",
-   "license": "permissive repo license",
-   "id": "5d7e9d7d1151ce20"
-  },
-  {
-   "file": "exemplars/codedoc/017.md",
-   "genre": "codedoc",
-   "subgenre": "readme",
-   "chars": 300,
-   "source": "github",
-   "license": "permissive repo license",
-   "id": "d21d68b2c3e2b3b3"
-  },
-  {
-   "file": "exemplars/codedoc/018.md",
-   "genre": "codedoc",
-   "subgenre": "readme",
-   "chars": 300,
-   "source": "github",
-   "license": "permissive repo license",
-   "id": "4724f38603a08ded"
-  },
-  {
-   "file": "exemplars/codedoc/019.md",
-   "genre": "codedoc",
-   "subgenre": "readme",
-   "chars": 300,
-   "source": "github",
-   "license": "permissive repo license",
-   "id": "3234fff360ebb9ac"
-  },
-  {
-   "file": "exemplars/codedoc/020.md",
-   "genre": "codedoc",
-   "subgenre": "readme",
-   "chars": 300,
-   "source": "github",
-   "license": "permissive repo license",
-   "id": "31685035f6b5dcd5"
+   "license": "MIT",
+   "id": "ec6f888a7ad91958"
   }
  ]
 }

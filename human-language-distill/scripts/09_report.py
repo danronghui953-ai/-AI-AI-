@@ -244,12 +244,15 @@ def select_exemplars(profiles):
         "im": [(os.path.join(common.WORK, "lccc_sample.jsonl.gz"), "lccc", "MIT")],
         "longform": [(os.path.join(common.WORK, "clue", "sample_wiki.jsonl.gz"), "clue-wiki", "CC BY-SA 4.0")],
         "literary": [(os.path.join(common.WORK, "literary_sample.jsonl.gz"), "wikisource", "Public Domain")],
-        "codedoc": [(os.path.join(common.WORK, "codedoc_sample.jsonl.gz"), "github", "permissive repo license")],
+        "codedoc": [(os.path.join(common.WORK, "codedoc_sample.jsonl.gz"), "github", None)],
     }
     index = []
     for genre, srcs in sources.items():
         gdir = os.path.join(EXEMPLARS, genre)
         os.makedirs(gdir, exist_ok=True)
+        for old in os.listdir(gdir):
+            if old.endswith(".md"):
+                os.remove(os.path.join(gdir, old))
         picked = []
         for path, source, lic in srcs:
             if not os.path.exists(path):
@@ -267,6 +270,12 @@ def select_exemplars(profiles):
                         continue
                     if common.cjk_ratio(t) < 0.5:
                         continue
+                    if genre == "codedoc":
+                        lic = (r.get("license") or "").upper()
+                        if lic not in {"MIT", "APACHE-2.0", "BSD-2-CLAUSE", "BSD-3-CLAUSE",
+                                       "CC0-1.0", "UNLICENSE", "CC-BY-4.0", "CC-BY-SA-4.0",
+                                       "WTFPL", "ZLIB", "MPL-2.0"}:
+                            continue
                     cands.append((r, t))
             random.shuffle(cands)
             per = max(1, 20 // max(1, len(srcs)))
@@ -274,7 +283,8 @@ def select_exemplars(profiles):
                 picked.append((source, lic, r, t[:300].rstrip()))
         for i, (source, lic, r, t) in enumerate(picked, 1):
             name = f"{i:03d}.md"
-            meta = {"source": source, "license": lic, "subgenre": r.get("subgenre"),
+            lic_out = r.get("license") if source == "github" else lic
+            meta = {"source": source, "license": lic_out, "subgenre": r.get("subgenre"),
                     "chars": len(t), "id": r.get("id"), "repo": r.get("repo"),
                     "title": r.get("title")}
             with open(os.path.join(gdir, name), "w", encoding="utf-8") as fh:
@@ -285,7 +295,7 @@ def select_exemplars(profiles):
                 fh.write("---\n\n" + t.strip() + "\n")
             index.append({"file": f"exemplars/{genre}/{name}", "genre": genre,
                           "subgenre": r.get("subgenre"), "chars": len(t),
-                          "source": source, "license": lic, "id": r.get("id")})
+                          "source": source, "license": lic_out, "id": r.get("id")})
     json.dump({"count": len(index), "items": index}, open(os.path.join(ROOT, "index.json"), "w"),
               ensure_ascii=False, indent=1)
     print("exemplars", len(index))
