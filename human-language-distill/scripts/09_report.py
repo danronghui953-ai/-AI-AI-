@@ -340,7 +340,7 @@ def make_readme(profiles, validation) -> str:
              "| 路径 | 内容 |", "|---|---|",
              "| `profile/genre/*.json` | 每个体裁的特征分布、分位数、bootstrap 置信区间 |",
              "| `profile/validation.json` | HC3 人机对照的 AUC 和效应量 |",
-             "| `profile/deep/*.json` | 标点、短语、开头结尾、篇幅分层、体裁距离、人味分数 |",
+             "| `profile/deep/*.json` | 标点、短语、开头结尾、篇幅分层、体裁距离、HC3 参照分数 |",
              "| `reports/step2-report.md` | 第二轮分析结果 |",
              "| `reports/step2-plan.md` | 第二步计划与已知缺口 |",
              "| `profile/reliability.json` | 单篇折半信度诊断 |",
