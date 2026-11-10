@@ -1,0 +1,41 @@
+{
+ "codedoc": {
+  "n_docs": 2112,
+  "n_chars": 6108000,
+  "subgenres": {
+   "readme": 2112
+  }
+ },
+ "im": {
+  "n_docs": 70072,
+  "n_chars": 60796818,
+  "subgenres": {
+   "im": 70072
+  }
+ },
+ "literary": {
+  "n_docs": 2135,
+  "n_chars": 6871472,
+  "subgenres": {
+   "prose": 2135
+  }
+ },
+ "longform": {
+  "n_docs": 182133,
+  "n_chars": 220003923,
+  "subgenres": {
+   "longpost": 24730,
+   "news": 111575,
+   "wiki": 45828
+  }
+ },
+ "opinion": {
+  "n_docs": 229649,
+  "n_chars": 131376241,
+  "subgenres": {
+   "comment": 35645,
+   "qa": 159631,
+   "review": 34373
+  }
+ }
+}

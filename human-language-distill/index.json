@@ -1,0 +1,725 @@
+{
+ "count": 80,
+ "items": [
+  {
+   "file": "exemplars/im/001.md",
+   "genre": "im",
+   "subgenre": "im",
+   "chars": 163,
+   "source": "lccc",
+   "license": "MIT",
+   "id": "816fbeee728ee9f4"
+  },
+  {
+   "file": "exemplars/im/002.md",
+   "genre": "im",
+   "subgenre": "im",
+   "chars": 155,
+   "source": "lccc",
+   "license": "MIT",
+   "id": "797bb70d0d294585"
+  },
+  {
+   "file": "exemplars/im/003.md",
+   "genre": "im",
+   "subgenre": "im",
+   "chars": 191,
+   "source": "lccc",
+   "license": "MIT",
+   "id": "59e10ddb0e7a0621"
+  },
+  {
+   "file": "exemplars/im/004.md",
+   "genre": "im",
+   "subgenre": "im",
+   "chars": 254,
+   "source": "lccc",
+   "license": "MIT",
+   "id": "dfd66e9549316e19"
+  },
+  {
+   "file": "exemplars/im/005.md",
+   "genre": "im",
+   "subgenre": "im",
+   "chars": 263,
+   "source": "lccc",
+   "license": "MIT",
+   "id": "9d898fc3dfe73398"
+  },
+  {
+   "file": "exemplars/im/006.md",
+   "genre": "im",
+   "subgenre": "im",
+   "chars": 214,
+   "source": "lccc",
+   "license": "MIT",
+   "id": "e6fb893f3b60b219"
+  },
+  {
+   "file": "exemplars/im/007.md",
+   "genre": "im",
+   "subgenre": "im",
+   "chars": 164,
+   "source": "lccc",
+   "license": "MIT",
+   "id": "c62a9acfd2cff582"
+  },
+  {
+   "file": "exemplars/im/008.md",
+   "genre": "im",
+   "subgenre": "im",
+   "chars": 222,
+   "source": "lccc",
+   "license": "MIT",
+   "id": "849b42ed67488884"
+  },
+  {
+   "file": "exemplars/im/009.md",
+   "genre": "im",
+   "subgenre": "im",
+   "chars": 153,
+   "source": "lccc",
+   "license": "MIT",
+   "id": "d977e7e78bcf6a11"
+  },
+  {
+   "file": "exemplars/im/010.md",
+   "genre": "im",
+   "subgenre": "im",
+   "chars": 245,
+   "source": "lccc",
+   "license": "MIT",
+   "id": "e29e116449156e6c"
+  },
+  {
+   "file": "exemplars/im/011.md",
+   "genre": "im",
+   "subgenre": "im",
+   "chars": 177,
+   "source": "lccc",
+   "license": "MIT",
+   "id": "a0e6f1f58ba93490"
+  },
+  {
+   "file": "exemplars/im/012.md",
+   "genre": "im",
+   "subgenre": "im",
+   "chars": 188,
+   "source": "lccc",
+   "license": "MIT",
+   "id": "29b813663e0f0346"
+  },
+  {
+   "file": "exemplars/im/013.md",
+   "genre": "im",
+   "subgenre": "im",
+   "chars": 193,
+   "source": "lccc",
+   "license": "MIT",
+   "id": "f71d36051ec4b654"
+  },
+  {
+   "file": "exemplars/im/014.md",
+   "genre": "im",
+   "subgenre": "im",
+   "chars": 180,
+   "source": "lccc",
+   "license": "MIT",
+   "id": "c276e0557e4de12c"
+  },
+  {
+   "file": "exemplars/im/015.md",
+   "genre": "im",
+   "subgenre": "im",
+   "chars": 188,
+   "source": "lccc",
+   "license": "MIT",
+   "id": "23ee2d960b7f3d1d"
+  },
+  {
+   "file": "exemplars/im/016.md",
+   "genre": "im",
+   "subgenre": "im",
+   "chars": 180,
+   "source": "lccc",
+   "license": "MIT",
+   "id": "f0dc9adc03df4f22"
+  },
+  {
+   "file": "exemplars/im/017.md",
+   "genre": "im",
+   "subgenre": "im",
+   "chars": 154,
+   "source": "lccc",
+   "license": "MIT",
+   "id": "7a602f5f1b5332a3"
+  },
+  {
+   "file": "exemplars/im/018.md",
+   "genre": "im",
+   "subgenre": "im",
+   "chars": 300,
+   "source": "lccc",
+   "license": "MIT",
+   "id": "ad751cd8b9a7ae36"
+  },
+  {
+   "file": "exemplars/im/019.md",
+   "genre": "im",
+   "subgenre": "im",
+   "chars": 163,
+   "source": "lccc",
+   "license": "MIT",
+   "id": "b0ba9e050515158c"
+  },
+  {
+   "file": "exemplars/im/020.md",
+   "genre": "im",
+   "subgenre": "im",
+   "chars": 192,
+   "source": "lccc",
+   "license": "MIT",
+   "id": "41a01d8ab315d1f6"
+  },
+  {
+   "file": "exemplars/longform/001.md",
+   "genre": "longform",
+   "subgenre": "wiki",
+   "chars": 180,
+   "source": "clue-wiki",
+   "license": "CC BY-SA 4.0",
+   "id": "36715c11a7ef760f"
+  },
+  {
+   "file": "exemplars/longform/002.md",
+   "genre": "longform",
+   "subgenre": "wiki",
+   "chars": 193,
+   "source": "clue-wiki",
+   "license": "CC BY-SA 4.0",
+   "id": "7222439ae5bb4221"
+  },
+  {
+   "file": "exemplars/longform/003.md",
+   "genre": "longform",
+   "subgenre": "wiki",
+   "chars": 300,
+   "source": "clue-wiki",
+   "license": "CC BY-SA 4.0",
+   "id": "76e552893a29cfc2"
+  },
+  {
+   "file": "exemplars/longform/004.md",
+   "genre": "longform",
+   "subgenre": "wiki",
+   "chars": 300,
+   "source": "clue-wiki",
+   "license": "CC BY-SA 4.0",
+   "id": "dddbd29a77d4637e"
+  },
+  {
+   "file": "exemplars/longform/005.md",
+   "genre": "longform",
+   "subgenre": "wiki",
+   "chars": 182,
+   "source": "clue-wiki",
+   "license": "CC BY-SA 4.0",
+   "id": "ab4e51bbee2cad79"
+  },
+  {
+   "file": "exemplars/longform/006.md",
+   "genre": "longform",
+   "subgenre": "wiki",
+   "chars": 300,
+   "source": "clue-wiki",
+   "license": "CC BY-SA 4.0",
+   "id": "903ceeef74d505db"
+  },
+  {
+   "file": "exemplars/longform/007.md",
+   "genre": "longform",
+   "subgenre": "wiki",
+   "chars": 300,
+   "source": "clue-wiki",
+   "license": "CC BY-SA 4.0",
+   "id": "f7ca5e55f0e7e761"
+  },
+  {
+   "file": "exemplars/longform/008.md",
+   "genre": "longform",
+   "subgenre": "wiki",
+   "chars": 300,
+   "source": "clue-wiki",
+   "license": "CC BY-SA 4.0",
+   "id": "9569172e0ed5b934"
+  },
+  {
+   "file": "exemplars/longform/009.md",
+   "genre": "longform",
+   "subgenre": "wiki",
+   "chars": 215,
+   "source": "clue-wiki",
+   "license": "CC BY-SA 4.0",
+   "id": "e6aabefa694234c2"
+  },
+  {
+   "file": "exemplars/longform/010.md",
+   "genre": "longform",
+   "subgenre": "wiki",
+   "chars": 300,
+   "source": "clue-wiki",
+   "license": "CC BY-SA 4.0",
+   "id": "0d24847ba5dd5818"
+  },
+  {
+   "file": "exemplars/longform/011.md",
+   "genre": "longform",
+   "subgenre": "wiki",
+   "chars": 300,
+   "source": "clue-wiki",
+   "license": "CC BY-SA 4.0",
+   "id": "05c1a76683709dd7"
+  },
+  {
+   "file": "exemplars/longform/012.md",
+   "genre": "longform",
+   "subgenre": "wiki",
+   "chars": 300,
+   "source": "clue-wiki",
+   "license": "CC BY-SA 4.0",
+   "id": "733ad4f7743a947d"
+  },
+  {
+   "file": "exemplars/longform/013.md",
+   "genre": "longform",
+   "subgenre": "wiki",
+   "chars": 300,
+   "source": "clue-wiki",
+   "license": "CC BY-SA 4.0",
+   "id": "b5331451a8866085"
+  },
+  {
+   "file": "exemplars/longform/014.md",
+   "genre": "longform",
+   "subgenre": "wiki",
+   "chars": 300,
+   "source": "clue-wiki",
+   "license": "CC BY-SA 4.0",
+   "id": "fce7f82187e8646c"
+  },
+  {
+   "file": "exemplars/longform/015.md",
+   "genre": "longform",
+   "subgenre": "wiki",
+   "chars": 300,
+   "source": "clue-wiki",
+   "license": "CC BY-SA 4.0",
+   "id": "097df6ad5bff5d2d"
+  },
+  {
+   "file": "exemplars/longform/016.md",
+   "genre": "longform",
+   "subgenre": "wiki",
+   "chars": 300,
+   "source": "clue-wiki",
+   "license": "CC BY-SA 4.0",
+   "id": "877d0bfdccbfadd7"
+  },
+  {
+   "file": "exemplars/longform/017.md",
+   "genre": "longform",
+   "subgenre": "wiki",
+   "chars": 300,
+   "source": "clue-wiki",
+   "license": "CC BY-SA 4.0",
+   "id": "ce3df9f866b7cac1"
+  },
+  {
+   "file": "exemplars/longform/018.md",
+   "genre": "longform",
+   "subgenre": "wiki",
+   "chars": 300,
+   "source": "clue-wiki",
+   "license": "CC BY-SA 4.0",
+   "id": "cdacdc452f369fbc"
+  },
+  {
+   "file": "exemplars/longform/019.md",
+   "genre": "longform",
+   "subgenre": "wiki",
+   "chars": 236,
+   "source": "clue-wiki",
+   "license": "CC BY-SA 4.0",
+   "id": "456b35d486f4aa02"
+  },
+  {
+   "file": "exemplars/longform/020.md",
+   "genre": "longform",
+   "subgenre": "wiki",
+   "chars": 300,
+   "source": "clue-wiki",
+   "license": "CC BY-SA 4.0",
+   "id": "f2a75c1433dc4842"
+  },
+  {
+   "file": "exemplars/literary/001.md",
+   "genre": "literary",
+   "subgenre": "prose",
+   "chars": 299,
+   "source": "wikisource",
+   "license": "Public Domain",
+   "id": "828b2ec94b3c2710"
+  },
+  {
+   "file": "exemplars/literary/002.md",
+   "genre": "literary",
+   "subgenre": "prose",
+   "chars": 300,
+   "source": "wikisource",
+   "license": "Public Domain",
+   "id": "e63e269d79564956"
+  },
+  {
+   "file": "exemplars/literary/003.md",
+   "genre": "literary",
+   "subgenre": "prose",
+   "chars": 300,
+   "source": "wikisource",
+   "license": "Public Domain",
+   "id": "32a3fa1f8688aee9"
+  },
+  {
+   "file": "exemplars/literary/004.md",
+   "genre": "literary",
+   "subgenre": "prose",
+   "chars": 300,
+   "source": "wikisource",
+   "license": "Public Domain",
+   "id": "91dfc9812926eeb3"
+  },
+  {
+   "file": "exemplars/literary/005.md",
+   "genre": "literary",
+   "subgenre": "prose",
+   "chars": 300,
+   "source": "wikisource",
+   "license": "Public Domain",
+   "id": "b19a8dbd86cb1486"
+  },
+  {
+   "file": "exemplars/literary/006.md",
+   "genre": "literary",
+   "subgenre": "prose",
+   "chars": 300,
+   "source": "wikisource",
+   "license": "Public Domain",
+   "id": "e4ff4ba6279af833"
+  },
+  {
+   "file": "exemplars/literary/007.md",
+   "genre": "literary",
+   "subgenre": "prose",
+   "chars": 300,
+   "source": "wikisource",
+   "license": "Public Domain",
+   "id": "2b37b8c6c1d2be5d"
+  },
+  {
+   "file": "exemplars/literary/008.md",
+   "genre": "literary",
+   "subgenre": "prose",
+   "chars": 300,
+   "source": "wikisource",
+   "license": "Public Domain",
+   "id": "464ada123f4c49fb"
+  },
+  {
+   "file": "exemplars/literary/009.md",
+   "genre": "literary",
+   "subgenre": "prose",
+   "chars": 300,
+   "source": "wikisource",
+   "license": "Public Domain",
+   "id": "58c974cb8a6ce2f0"
+  },
+  {
+   "file": "exemplars/literary/010.md",
+   "genre": "literary",
+   "subgenre": "prose",
+   "chars": 300,
+   "source": "wikisource",
+   "license": "Public Domain",
+   "id": "2b64b8988d33ca3f"
+  },
+  {
+   "file": "exemplars/literary/011.md",
+   "genre": "literary",
+   "subgenre": "prose",
+   "chars": 300,
+   "source": "wikisource",
+   "license": "Public Domain",
+   "id": "8f1616a1fe1ec3c8"
+  },
+  {
+   "file": "exemplars/literary/012.md",
+   "genre": "literary",
+   "subgenre": "prose",
+   "chars": 300,
+   "source": "wikisource",
+   "license": "Public Domain",
+   "id": "7eb65576617ca6aa"
+  },
+  {
+   "file": "exemplars/literary/013.md",
+   "genre": "literary",
+   "subgenre": "prose",
+   "chars": 300,
+   "source": "wikisource",
+   "license": "Public Domain",
+   "id": "5f414ca730d87df4"
+  },
+  {
+   "file": "exemplars/literary/014.md",
+   "genre": "literary",
+   "subgenre": "prose",
+   "chars": 300,
+   "source": "wikisource",
+   "license": "Public Domain",
+   "id": "df8f98a328ab5dbd"
+  },
+  {
+   "file": "exemplars/literary/015.md",
+   "genre": "literary",
+   "subgenre": "prose",
+   "chars": 300,
+   "source": "wikisource",
+   "license": "Public Domain",
+   "id": "4a43b4107eb5e732"
+  },
+  {
+   "file": "exemplars/literary/016.md",
+   "genre": "literary",
+   "subgenre": "prose",
+   "chars": 300,
+   "source": "wikisource",
+   "license": "Public Domain",
+   "id": "5cf87033adffccdb"
+  },
+  {
+   "file": "exemplars/literary/017.md",
+   "genre": "literary",
+   "subgenre": "prose",
+   "chars": 300,
+   "source": "wikisource",
+   "license": "Public Domain",
+   "id": "b9a1c7a17fa2ca67"
+  },
+  {
+   "file": "exemplars/literary/018.md",
+   "genre": "literary",
+   "subgenre": "prose",
+   "chars": 300,
+   "source": "wikisource",
+   "license": "Public Domain",
+   "id": "29819777d3a9f655"
+  },
+  {
+   "file": "exemplars/literary/019.md",
+   "genre": "literary",
+   "subgenre": "prose",
+   "chars": 300,
+   "source": "wikisource",
+   "license": "Public Domain",
+   "id": "4d8e5efb28f785bf"
+  },
+  {
+   "file": "exemplars/literary/020.md",
+   "genre": "literary",
+   "subgenre": "prose",
+   "chars": 300,
+   "source": "wikisource",
+   "license": "Public Domain",
+   "id": "9ecb24246cf07f95"
+  },
+  {
+   "file": "exemplars/codedoc/001.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 300,
+   "source": "github",
+   "license": "permissive repo license",
+   "id": "576876e221c97bfc"
+  },
+  {
+   "file": "exemplars/codedoc/002.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 299,
+   "source": "github",
+   "license": "permissive repo license",
+   "id": "73c32b0a4142b122"
+  },
+  {
+   "file": "exemplars/codedoc/003.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 300,
+   "source": "github",
+   "license": "permissive repo license",
+   "id": "b0eca6c34aeb4f3e"
+  },
+  {
+   "file": "exemplars/codedoc/004.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 300,
+   "source": "github",
+   "license": "permissive repo license",
+   "id": "a05e45706c677b6b"
+  },
+  {
+   "file": "exemplars/codedoc/005.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 300,
+   "source": "github",
+   "license": "permissive repo license",
+   "id": "7b1f7a5b0ad89006"
+  },
+  {
+   "file": "exemplars/codedoc/006.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 300,
+   "source": "github",
+   "license": "permissive repo license",
+   "id": "6e782e608753728e"
+  },
+  {
+   "file": "exemplars/codedoc/007.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 300,
+   "source": "github",
+   "license": "permissive repo license",
+   "id": "b824ba755f788cf9"
+  },
+  {
+   "file": "exemplars/codedoc/008.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 300,
+   "source": "github",
+   "license": "permissive repo license",
+   "id": "828e25fddb716cce"
+  },
+  {
+   "file": "exemplars/codedoc/009.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 300,
+   "source": "github",
+   "license": "permissive repo license",
+   "id": "a3e7ab38b049fbf4"
+  },
+  {
+   "file": "exemplars/codedoc/010.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 300,
+   "source": "github",
+   "license": "permissive repo license",
+   "id": "f87fadd797e94a24"
+  },
+  {
+   "file": "exemplars/codedoc/011.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 300,
+   "source": "github",
+   "license": "permissive repo license",
+   "id": "d3a0d197a8584fe9"
+  },
+  {
+   "file": "exemplars/codedoc/012.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 300,
+   "source": "github",
+   "license": "permissive repo license",
+   "id": "25382c92a57ab877"
+  },
+  {
+   "file": "exemplars/codedoc/013.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 300,
+   "source": "github",
+   "license": "permissive repo license",
+   "id": "c7c3399a0cbf4735"
+  },
+  {
+   "file": "exemplars/codedoc/014.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 298,
+   "source": "github",
+   "license": "permissive repo license",
+   "id": "1c3bf46ceb380a11"
+  },
+  {
+   "file": "exemplars/codedoc/015.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 300,
+   "source": "github",
+   "license": "permissive repo license",
+   "id": "1ac428340969ea11"
+  },
+  {
+   "file": "exemplars/codedoc/016.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 300,
+   "source": "github",
+   "license": "permissive repo license",
+   "id": "5d7e9d7d1151ce20"
+  },
+  {
+   "file": "exemplars/codedoc/017.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 300,
+   "source": "github",
+   "license": "permissive repo license",
+   "id": "d21d68b2c3e2b3b3"
+  },
+  {
+   "file": "exemplars/codedoc/018.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 300,
+   "source": "github",
+   "license": "permissive repo license",
+   "id": "4724f38603a08ded"
+  },
+  {
+   "file": "exemplars/codedoc/019.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 300,
+   "source": "github",
+   "license": "permissive repo license",
+   "id": "3234fff360ebb9ac"
+  },
+  {
+   "file": "exemplars/codedoc/020.md",
+   "genre": "codedoc",
+   "subgenre": "readme",
+   "chars": 300,
+   "source": "github",
+   "license": "permissive repo license",
+   "id": "31685035f6b5dcd5"
+  }
+ ]
+}

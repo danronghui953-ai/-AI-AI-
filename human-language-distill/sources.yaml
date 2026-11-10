@@ -1,0 +1,40 @@
+project: human-language-distill
+cutoff: 2022-01-01
+generated: 2026-11-10
+note: 原始语料不进仓库，只记录来源、许可和校验和。
+sources:
+  - id: clue
+    name: "CLUECorpusSmall（allenai/CLUECorpusSmall 镜像）"
+    url: https://huggingface.co/datasets/austenjs/ClueCorpusSmallDataset
+    license: "MIT（数据集打包）；文本版权归原作者"
+    bytes: 13740512692
+    sha256: eb3c1df129032bbacdacaf61dfb062cf5142f1e0a6c7b271607bd81c613667dd
+  - id: lccc
+    name: "LCCC large"
+    url: https://huggingface.co/datasets/thu-coai/lccc
+    license: "MIT"
+    bytes: 607605643
+    sha256: 0eaf3b39e1f54c414c3c75a8319f89c8a98b4bc6f91913b051a0b849e7d3326f
+  - id: hc3
+    name: "HC3 Chinese"
+    url: https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese
+    license: "CC BY-SA 4.0"
+    bytes: 21726779
+    sha256: 425e7071bbd5dd88efd85d51e28a5adec9c72e04d96c52d194bdfb95fef00b0d
+  - id: github-readme
+    name: "GitHub 中文 README（2022-01-01 前最后推送的仓库）"
+    url: https://api.github.com/search/repositories
+    license: "逐仓库，只收 MIT / Apache-2.0 / BSD / CC-BY / CC0 / 未声明"
+    selection: stars>=20, pushed:<2022-01-01, README 正文 300-20000 字，CJK>=0.30
+    file: work/codedoc_sample.jsonl.gz
+  - id: wikisource
+    name: "Wikisource 中文公版文学"
+    url: https://zh.wikisource.org/w/api.php
+    license: "Public domain（作者去世超过 50 年）"
+    authors: 鲁迅, 老舍, 萧红, 郁达夫, 朱自清, 胡适, 徐志摩, 闻一多
+    file: work/literary_sample.jsonl.gz
+  - id: hc3
+    name: "HC3 Chinese（只做验证，不进主语料）"
+    url: https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese
+    license: "CC BY-SA 4.0"
+    role: known-groups validation（人类 vs GPT-3.5）
